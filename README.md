@@ -37,6 +37,14 @@ Unlike conventional decipherment models that treat spaces as word boundaries and
 
 ---
 
+## 3. Usage
+Place `ZL3b-n.txt` and `medieval_medicine_corpus.txt` inside the `data/` directory and run:
+```bash
+python src/generate_figures.py
+```
+
+---
+
 ## 3. Repository Structure
 * `README.md` - Theoretical framework, methodology, and empirical summary.
 * `CITATION.cff` - Citation metadata for academic attribution.
