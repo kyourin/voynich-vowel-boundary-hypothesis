@@ -1,6 +1,6 @@
 markdown
 
-[![DOI](https://zenodo.org)](https://doi.org)
+[![DOI](https://zenodo.org10.5281/zenodo.24223941.svg)](https://doi.org)
 
 10.5281/zenodo.24223941
 
