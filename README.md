@@ -6,6 +6,8 @@
 **Date:** November 2026  
 **License:** CC-BY-4.0  
 
+Code is licensed under the MIT License; theoretical framework, text, and figures are licensed under CC-BY-4.0.
+
 ---
 
 ## 1. Abstract & Core Hypothesis
