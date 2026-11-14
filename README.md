@@ -1,11 +1,14 @@
-![DOI](https://zenodo.org)](https://doi.org)
+markdown
+
+[![DOI](https://zenodo.org)](https://doi.org)
+
 10.5281/zenodo.24223941
 
 # Voynich Manuscript: Vowel-Boundary State Hypothesis & Computational Analysis
 
 **Author:** HASAN KAYNAK  
 **Date:** November 2026  
-**License:** CC-BY-4.0  
+**License:** Code under MIT License | Text, Theory & Figures under CC-BY-4.0
 
 Code is licensed under the MIT License; theoretical framework, text, and figures are licensed under CC-BY-4.0.
 
