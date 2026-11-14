@@ -1,3 +1,5 @@
+10.5281/zenodo.24223941
+
 # Voynich Manuscript: Vowel-Boundary State Hypothesis & Computational Analysis
 
 **Author:** HASAN KAYNAK  
