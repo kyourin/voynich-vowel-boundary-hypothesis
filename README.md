@@ -1,6 +1,6 @@
 # Voynich Manuscript: Vowel-Boundary State Hypothesis & Computational Analysis
 
-**Author:** [Adın Soyadın]  
+**Author:** HASAN KAYNAK  
 **Date:** November 2026  
 **License:** CC-BY-4.0  
 
