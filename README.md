@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org)](https://doi.org)
+![DOI](https://zenodo.org)](https://doi.org)
 10.5281/zenodo.24223941
 
 # Voynich Manuscript: Vowel-Boundary State Hypothesis & Computational Analysis
