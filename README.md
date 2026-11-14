@@ -50,7 +50,7 @@ Unlike conventional decipherment models that treat spaces as word boundaries and
 ---
 
 ## 3. Usage
-[![DOI](https://zenodo.org)](https://doi.org)
+[[![DOI](https://zenodo.org)](https://doi.org)](https://doi.org/10.5281/zenodo.24223941)
 Place `ZL3b-n.txt` and `medieval_medicine_corpus.txt` inside the `data/` directory and run:
 ```bash
 python src/generate_figures.py
@@ -59,7 +59,7 @@ python src/generate_figures.py
 ---
 
 ## 3. Repository Structure
-[![DOI](https://zenodo.org)](https://doi.org)
+[[![DOI](https://zenodo.org)](https://doi.org)](https://doi.org/10.5281/zenodo.24223941)
 * `README.md` - Theoretical framework, methodology, and empirical summary.
 * `CITATION.cff` - Citation metadata for academic attribution.
 * `figures/` - High-resolution visualizations (Boundary Heatmaps, SVD Scree Plot, Zipf Alignment Curves).
