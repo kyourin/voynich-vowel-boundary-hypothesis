@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this hypothesis, statistical findings, or code, please cite it as below."
+authors:
+  - family-names: "KAYNAK"
+    given-names: "HASAN"
+title: "Voynich Manuscript: Vowel-Boundary State Hypothesis & Computational Analysis"
+version: 1.0.0
+date-released: 2026-11-14
+license: CC-BY-4.0
