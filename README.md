@@ -67,6 +67,17 @@ In Voynich scholarship, distinct vocabulary shifts between Botanical/Herbal sect
 | **`gn`** (Multi-Consonant) | 395 | 349 | **3.18x** (Astronomical) | *signum, signa* |
 | **`npl`** (Multi-Consonant) | 18 | 12 | **2.46x** (Astronomical) | *in planeta, planetis* |
 
+### G. Forward Cipher Information-Theoretic Benchmark ($H_1$ & $H_2$ Entropy Anomaly)
+One of the most cited statistical anomalies of the Voynich Manuscript is its unusually low second-order conditional character entropy ($H_2 \approx 2.17\text{ bits}$), compared to $3.1\text{–}3.4\text{ bits}$ in natural European languages. Passing plain Medieval Latin medical texts forward through the 5-Vowel Boundary State Cipher naturally reproduces this entropy compression without artificial gibberish rules:
+
+| Corpus / Model | $H_0$ (Max) | $H_1$ (Unigram) | $H_2$ (Conditional) | Mean Token Length |
+| :--- | :---: | :---: | :---: | :---: |
+| **Plain Medieval Latin (Input)** | `4.70` | `3.99` | `3.366` | `5.72 (±2.78)` |
+| **Actual Voynich (`ZL3b-n` Target)** | `4.75` | **`3.87`** | **`2.167`** | **`5.06 (±1.95)`** |
+| **Vowel-Boundary Cipher (Output)** | `4.32` | **`3.90`** | **`2.287`** | **`5.49 (±1.41)`** |
+
+* **Key Result:** The forward cipher drops Latin's conditional entropy $H_2$ by **1.079 bits** (`3.366` $\rightarrow$ `2.287`), accounting for **~90% of the gap** to actual Voynich (`2.167 bits`), while simultaneously matching unigram entropy $H_1$ (`3.90` vs. `3.87`) and narrowing word length variance (`±1.41`).
+
 ---
 
 ## 3. Usage
