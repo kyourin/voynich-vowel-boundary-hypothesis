@@ -18,7 +18,7 @@ def find_data_file(candidates):
     raise FileNotFoundError(f"Missing required file: {candidates}")
 
 voynich_path = find_data_file(["ZL3b-n.txt"])
-latin_path = find_data_file(["medieval_medicine_corpus.txt", "mevieval_medicine_corpus.txt"])
+latin_path = find_data_file(["medieval_corpus.txt", "mevieval_corpus.txt"])
 
 figures_dir = voynich_path.parent.parent / "figures" if voynich_path.parent.name == "data" else voynich_path.parent / "figures"
 figures_dir.mkdir(parents=True, exist_ok=True)
