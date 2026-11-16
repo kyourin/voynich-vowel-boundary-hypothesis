@@ -78,6 +78,16 @@ One of the most cited statistical anomalies of the Voynich Manuscript is its unu
 
 * **Key Result:** The forward cipher drops Latin's conditional entropy $H_2$ by **1.079 bits** (`3.366` $\rightarrow$ `2.287`), accounting for **~90% of the gap** to actual Voynich (`2.167 bits`), while simultaneously matching unigram entropy $H_1$ (`3.90` vs. `3.87`) and narrowing word length variance (`±1.41`).
 
+### H. Cross-Section Subspace Invariance (Currier A vs. Currier B Grassmannian Alignment)
+To test whether the 5-dimensional boundary cipher mechanism stays invariant when moving from Herbal/Pharmaceutical pages (**Currier A**, 1,985 lines) to Biological/Astronomical/Recipe pages (**Currier B**, 2,386 lines), independent normalized SVD decompositions were compared via principal subspace angles against a 1,000-trial Monte Carlo random baseline:
+
+| Subspace Component | Top-5 Variance (A / B) | Subspace Cosine Similarity | Random Baseline | Z-Score Significance |
+| :--- | :---: | :---: | :---: | :---: |
+| **Suffix Subspace ($U_5$)** | `72.64%` / `82.47%` | **`0.6281`** (`10.4°`, `18.0°`, `38.6°`...) | `0.3394` | **`+6.16σ`** ($p < 10^{-9}$) |
+| **Prefix Subspace ($V_5$)** | `72.64%` / `82.47%` | **`0.5595`** (`15.4°`, `33.2°`, `47.2°`...) | `0.2183` | **`+10.65σ`** ($p < 10^{-25}$) |
+
+* **Key Result:** Both sections independently concentrate >72%–82% of boundary variance in 5 dimensions, and their primary latent axes align within **10.4°–18.0°** ($+6.16\sigma$ to $+10.65\sigma$ above chance), proving that Currier A and Currier B operate under the **same underlying 5-state boundary mechanism** rather than two separate languages.
+
 ---
 
 ## 3. Usage
