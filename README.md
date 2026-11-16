@@ -53,6 +53,20 @@ Unlike conventional decipherment models that treat spaces as word boundaries and
 | **Mid-Paragraph Tokens** | 33,475 | `5.07` (±1.93) | `-y` (12.4%), `-ey` (10.7%), `-aiin` (9.1%), `-edy` (8.3%), `-ol` (7.9%) |
 | **Paragraph-Final Tokens** | 264 | `5.34` (±1.82) | `-y` (22.7%), `-aiin` (11.4%), `-ey` (9.1%), `-am` (6.4%), `-ol` (6.1%) |
 
+### F. Domain-Driven Consonant Cluster Shift (Explaining Currier A & B Divergence)
+In Voynich scholarship, distinct vocabulary shifts between Botanical/Herbal sections and Astronomical/Biological sections are traditionally attributed to two separate dialects or scribes (*Currier A* vs. *Currier B*). Under the Vowel-Boundary State Hypothesis, a single unified cipher mechanism naturally produces this divergence when the underlying domain vocabulary shifts:
+
+* **Domain-Specific Consonant Signatures:** Across 3,861 Botanical/Medical passages vs. 1,015 Astronomical passages in Medieval Latin corpora, multi-consonant clusters shift sharply by subject matter—such as **`chm`** (*chymus*, 18.88x), **`dstr`** (*adstringere*, 11.10x), **`lb`** (*albus*, 5.71x), and **`stl`** (*stillare*, 4.58x) in Botanical/Medical texts vs. **`gn`** (*signum/signa*, 3.18x), **`npl`** (*in planeta*, 2.46x), and **`nsc`** (*ascendens*, 2.43x) in Astronomical texts.
+* **Vowel-State Table Migration for Identical Consonants:** Even common consonants (such as `l` or `rp`) migrate to completely different `(Left_Vowel, Consonant, Right_Vowel)` cipher tables depending on topic—e.g., **`o_rp_u`** (*corpus*, **47.56x**), **`o_l_ia`** (*folia*, **28.61x**), and **`o_l_eu`** (*oleum*, **16.69x**) dominate Botanical/Medical sections, causing the cipher to emit distinct surface Voynich tokens per section without requiring two languages.
+
+| Cipher State / Cluster | Botanical / Medical Count | Astronomical Count | Relative Enrichment | Underlying Latin Domain Roots |
+| :--- | :---: | :---: | :---: | :--- |
+| **`o_rp_u`** (State `O` $\rightarrow$ `U`) | 358 | 1 | **47.56x** (Botanical) | *corpus, corporis* |
+| **`o_l_ia`** (State `O` $\rightarrow$ `IA`) | 323 | 2 | **28.61x** (Botanical) | *folia, foliorum* |
+| **`o_l_eu`** (State `O` $\rightarrow$ `EU`) | 125 | 1 | **16.69x** (Botanical) | *oleum, olei* |
+| **`gn`** (Multi-Consonant) | 395 | 349 | **3.18x** (Astronomical) | *signum, signa* |
+| **`npl`** (Multi-Consonant) | 18 | 12 | **2.46x** (Astronomical) | *in planeta, planetis* |
+
 ---
 
 ## 3. Usage
