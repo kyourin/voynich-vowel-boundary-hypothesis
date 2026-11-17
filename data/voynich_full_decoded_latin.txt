@@ -1,0 +1,2148 @@
+==============================================================================================
+VOYNICH EL YAZMASI (ZL3b-n) — TAM METİN LATİNCE DEŞİFRE ÇIKTISI
+Yöntem: Sol Ünlü Öneki + Ünsüz Gövdesi + Sağ Ünlü Soneki & Sınır Kilitli Viterbi Çözücü
+==============================================================================================
+
+[f1r.1,@P0] (Voynich: 186 kelime -> Latince: 101 kelime)
+  ita alia meis et utendi alia et occasu prius vivae ervi alia
+  ita obruas etsi id inpo me in ita alia idque et gaviae
+  sane et prius suum antiate foediore in rei in et prius me
+  in demeare squamae bre in sim indis novi sitne in ne urina
+  incuria tiva in atqui alia aeris iter erit aeris risque ubi in
+  alia incisa oriente iamque impulsa vim sump nummi in actutum runtque oriri
+  in indum et varia in vineae impetu nisi vero et tuis metu
+  in appiae vi in ueritate in abire in suum vitae ratio et
+  nisi priorem suam idem dicta
+
+[f1v.1,@P0] (Voynich: 82 kelime -> Latince: 38 kelime)
+  cui ac inter et prenso mare alia xena inde vino nam cuius
+  amico oriri per pomis rivi ac si uinco iocur vi ac urinae
+  in tenui tigna rivi exire in sit urina tecti et aeantion suum
+  inertia unciae
+
+[f2r.1,@P0] (Voynich: 80 kelime -> Latince: 27 kelime)
+  ista in vereri in id in octavis indis ad suillae sit sit
+  striata in et ulcus ervi taedio urinae aurium visenda iterari virgo dies
+  iter in omnia
+
+[f2v.1,@P0] (Voynich: 55 kelime -> Latince: 25 kelime)
+  augusti mine baebius sint in inter illa erexi in sulci arinca bis
+  et avis iniuria in iniuria oriri iter et aiunt in arce iugera
+  aerario
+
+[f3r.1,@P0] (Voynich: 110 kelime -> Latince: 48 kelime)
+  arteriae verior iungere oriri in vi mh oriri erit ad vis priore
+  antonio anguis oriri tuis ac inest suis sibi vitae maius ostrea isque
+  etruria macie et aetas alia rem iure ad risque etiam rubri ista
+  arti stantia ac eorum cum verior iniuria ad et ita alia ansa
+
+[f3v.1,@P0] (Voynich: 85 kelime -> Latince: 39 kelime)
+  austros in rapis industria ad circe iussit inane aeris nube tenui alia
+  gauge inter alia arando alia erit inter ad abire sciat et rivi
+  agro in eiusque rei chis induunt incisa intenta ad eius afri bima
+  vespae in et
+
+[f4r.1,@P0] (Voynich: 60 kelime -> Latince: 30 kelime)
+  eius ac seri ripa ictus sive ore inter rari sunt aurium in
+  tiva aiunt in aurium vi in suis sive in antiate et nisi
+  sine simo inpari rei in vi
+
+[f4v.1,@P0] (Voynich: 79 kelime -> Latince: 39 kelime)
+  ac ora rivi impe suis aeris in ambo isque avium de in
+  suis ripas imperio estque rivis imum pro omni [ntq] in iam impe
+  ursae aeris bos meum in tuis et ad aetas urinae suum ad
+  rubro maxi erit
+
+[f5r.1,@P0] (Voynich: 53 kelime -> Latince: 26 kelime)
+  utp ex in erit tuis vero maior in et fiunt meum fe
+  ad ratio fiunt si mis in bris oriri exce vi in europae
+  tegi basim
+
+[f5v.1,@P0] (Voynich: 48 kelime -> Latince: 23 kelime)
+  aut et reuerentia iunco in iacturam in iuventam in ne aiunt in
+  enim iam uestris in vibio et moriente in iniuria medio mari
+
+[f6r.1,@P0] (Voynich: 80 kelime -> Latince: 37 kelime)
+  et sulcis iniuria in scire erit squamis ad mango iniuriae ad seriem
+  austro rqa alia ac in ne iniuria ad erit ad arandi est
+  impendio anesum addunt aeris nempe onera ac meis alia seri vivo visum
+  et
+
+[f6v.1,@P0] (Voynich: 113 kelime -> Latince: 54 kelime)
+  id amplius ad ager inter sciat vibio iureiurando arandi et atqui ad
+  ad et actionem cura angit ad grauari in venire arabia iniuria ad
+  augebo cera alto ovans in si earn vivo ad rei alia tauri
+  vi [ds] ad alia rei ad immo alia rivi vivae et inde
+  in [ml] ulceri nectit in oriri
+
+[f7r.1,@P0] (Voynich: 57 kelime -> Latince: 24 kelime)
+  secta iussu alia sibi ante tres fiunt ubi urina rex vero intus
+  ab media et media in igni ac uxori ad aerario in scio
+
+[f7v.1,@P0] (Voynich: 75 kelime -> Latince: 41 kelime)
+  sisti hi in ne vi in ita in vivo ubi spei isque
+  etiam iniuria et ac re in ne suisque asini inter euntibus in
+  isque illam ac dianae inani et alia oriente ubi alia in si
+  etsi rufa estque inane in
+
+[f8r.1,@P0] (Voynich: 119 kelime -> Latince: 53 kelime)
+  [ls] rei hi axis suis iniecta in ac incisurae in mari oriri
+  angue boni alia ego in spirae modo media ex in ictu in
+  ne araneis suf in modo media iuxta incocta induere urina induere vineae
+  recti aetas aerario erit et priore aerario idque aegos initio eius toto
+  verna alia aeris et mh
+
+[f8v.1,@P0] (Voynich: 99 kelime -> Latince: 41 kelime)
+  sim arida item impe simi in iugis aeris prave in aerarium vineae
+  in erit in alia suis viam diluere rivi in seri vir bestiae
+  austeri lauri in iubent sit iter venti alia rigore amplior lauri reiecto
+  incuria alia in ego in
+
+[f9r.1,@P0] (Voynich: 73 kelime -> Latince: 31 kelime)
+  ulce vi infe ad sine virium astruere europae sinu admi amavit in
+  imbui si estque sesima in arida visam in re alia oriri intenta
+  imum et intubi vitae rivi deli spei
+
+[f9v.1,@P0] (Voynich: 74 kelime -> Latince: 35 kelime)
+  artis in opposita pri in ictu spei vir aeris initio in tereti
+  in vim in iumenta et tiva imum est iustum statui vina ex
+  aerario inpo in ubi in rimam abire oriri toti spei induere
+
+[f10r.1,@P0] (Voynich: 84 kelime -> Latince: 41 kelime)
+  sisti icterias prodita in iam et aiunt in et fiunt rei alia
+  iam in ne dari omnia iuvandi alia et nube inter vero vir
+  vomis octob et bima in amico ansa inter mira in nisi oriri
+  metu prave imum in intima
+
+[f10v.1,@P0] (Voynich: 57 kelime -> Latince: 38 kelime)
+  arti in impe istum in video in ne indo amne eximia iunco
+  vi in prima ab ac mari in suam in intima in sit
+  in intima rei in abietis mari etiam maria patiar et iter iterumque
+  in ne
+
+[f11r.1,@P0] (Voynich: 58 kelime -> Latince: 39 kelime)
+  hiatu prius in sine et isque in intubi in mari vini modo
+  in rei in auctori ubi in ne intus si in vi in
+  et in [nm] in ad et mari ab amico xiv ad in
+  intubi vi in
+
+[f11v.1,@P0] (Voynich: 43 kelime -> Latince: 20 kelime)
+  sine et si in scitum in ne iactant in iubent ulce in
+  obiecta intima mari in serio isque novi ad
+
+[f13r.1,@P0] (Voynich: 74 kelime -> Latince: 35 kelime)
+  istis in istis ista auctori non sibi iam in ad et ad
+  et ictus iter habui binae iactant intus habui stantia antonio in intubi
+  ubi scio in iactetur in ne bibi in acies aurium vibio
+
+[f13v.1,@P0] (Voynich: 61 kelime -> Latince: 29 kelime)
+  intima antiate tunc intus enim dubiae oriente et ac ad risque ita
+  in suis in tarenti in et in et ut imum vi rqa
+  rivi et ac arabia boni
+
+[f14r.1,@P0] (Voynich: 71 kelime -> Latince: 39 kelime)
+  ista in suam in ne et etiam sub initia neque ibi in
+  cutis in binae moveri atti taxi induunt in scias si lati ad
+  inpo exeunt austrum in aiunt uncia exin in mh in sine ratio
+  oriri bibi ursae
+
+[f14v.1,@P0] (Voynich: 72 kelime -> Latince: 41 kelime)
+  in ista in tenui ubi in mari venti mari in rei in
+  ne omnia aetate et in isque usquam isque in ubi sponte in
+  vim imum sive estque in ne in scio isque aurium aiunt et
+  ubi prius etsi amico angue
+
+[f15r.1,@P0] (Voynich: 78 kelime -> Latince: 29 kelime)
+  huius se in intubus [tl] tanti rivi incendio audiunt alia sive in
+  iactatu tussi in fremitu vitae ad et erit meis ramis intusque nisi
+  venti abire in enuntiare erit
+
+[f15v.1,@P0] (Voynich: 70 kelime -> Latince: 41 kelime)
+  ex alia alia alii et vi ammineo vi in tot etiam si
+  sit inter oriente vi ad intima id tanti alia et axis rei
+  ad aurium utp inter ac meis in aiunt vir erexi dari vitia
+  durior in vi in vereri
+
+[f16r.1,@P0] (Voynich: 72 kelime -> Latince: 36 kelime)
+  est ista enim uti sine europae nempe ubi austrum saccis et in
+  ripa in mh ad et tenue tuis meum in idem amavi inest
+  arreti et media bovi arabia in arabia et meis [nm] in si
+
+[f16v.1,@P0] (Voynich: 76 kelime -> Latince: 36 kelime)
+  aiunt ad aiunt et ita estque ubi in eximere obiecta media in
+  inter oriente dari etiam spirante id in rei et in amnium aerario
+  pretio iter rivi maxi abire in uobiscum vivo de in etiam ex
+
+[f17r.1,@P0] (Voynich: 73 kelime -> Latince: 31 kelime)
+  ineunte maciem suisque non inter alia rei angit aeris tali costi vires
+  sine vino hippo rei iubebo mh ubi inpo scio et nego octo
+  ad et insunt vitae ratio vinci et
+
+[f17v.1,@P0] (Voynich: 135 kelime -> Latince: 74 kelime)
+  restin in russeo tenui et initio aetna [ds] cibo arriae sinu quae
+  iussere oriente nandi iuncta alia ita alia iam in dispari ad de
+  et tabe ac in dari sibi ac toto et rufa alia vero
+  ex osse scio ac ratio oriri vespae sicae alia esse incitari vi
+  ampli iugum me ebori et avide imponi aestivo imago ac urina alia
+  in rivi ut ter ris nisi alia asino in iniuriae ossa gaviae
+  vespae aetas
+
+[f18r.1,@P0] (Voynich: 78 kelime -> Latince: 38 kelime)
+  binae insania habui ubi in ne abire alia arabia rivi tibi et
+  intus vivo seri arabia maciem omnino non sis vibio inditur omnisque ne
+  sibi ac in estque scire vi in bovi alia sive vitia ne
+  et ubi
+
+[f18v.1,@P0] (Voynich: 68 kelime -> Latince: 37 kelime)
+  si hi ictu ictu alia isque bibi ad totisque earn intubi ubi
+  [nm] nube cibo inter fons mari inter ad alia iter nunc et
+  in tenui in suas etsi enim earn iubent bima in et primo
+  coitu
+
+[f19r.1,@P0] (Voynich: 75 kelime -> Latince: 43 kelime)
+  est ct hi in intentio et in priore et inter adde in
+  mh seri initio in scias iubent antiate in suis in ne tauri
+  et veneni alia urina rei sint in in et intubi dh in
+  vero ubi addunt ulce abire in adiuvant
+
+[f19v.1,@P0] (Voynich: 78 kelime -> Latince: 45 kelime)
+  vasti arti bibi ubi dubio inter in imum et iuventae omnium in
+  ne intima in mox ab vite fui ad rei alia rivi ripa
+  intacta erit earum erit in rei in ita et minui ubi in
+  vultu ante in alia iam bimam iumenta iumenta gavia
+
+[f20r.1,@P0] (Voynich: 88 kelime -> Latince: 44 kelime)
+  oriuntur pictae arinca viam dari fiant maiore incisura aeris etsi rei ac
+  maesti ubi maiore in rixa in rei in mederi nisi magi alia
+  tres iumenta bis in uxori inpo meis ictu ripa cleo aiunt hi
+  auctori anesum triente intentum in iniuriae oriri oriente
+
+[f20v.1,@P0] (Voynich: 83 kelime -> Latince: 46 kelime)
+  alia austri sestertia ulcus in astruere rixa themi arinca amabis bis omni
+  mari intus alia et si in hiemis sint in [ds] solere sive
+  in me fimo suis alia rei in ne ad ubi ursae rei
+  vir dh iam [ntq] et fieri in aerarium austro reddi
+
+[f21r.1,@P0] (Voynich: 104 kelime -> Latince: 57 kelime)
+  ista et ut istum edito impe intus vi in meis et ac
+  oriri obiret in ne uvae et vitae in agri austrum oriente ursi
+  ictu et ita et iter et iter ac urceis maior rivi serra
+  usquam usus enim tuis hispa si vivae ad utero item intima iovem
+  seri sunt omnis meis materia sese oriri in spei
+
+[f21v.1,@P0] (Voynich: 57 kelime -> Latince: 31 kelime)
+  atqui nisi buxei intubum audiunt in iumenta media eorum in nisi incom
+  dari in ne sine vi ac sive in tuis hiera admi in
+  ubique rei ac oriente ad imperio ac
+
+[f22r.1,@P0] (Voynich: 102 kelime -> Latince: 58 kelime)
+  arti illas iam [tl] in ista ad sine ac si et tibi
+  in tiva in indita et ubi in vineae sisti arriae in et
+  praesto in ac in binae in rei aetna et bis primo sine
+  ictum in autem adiectione in vi alia abire in auctori tibi etiam
+  in ne octaviae ubi obiecta ictu in ne indita et
+
+[f22v.1,@P0] (Voynich: 71 kelime -> Latince: 36 kelime)
+  arretio intus in ne et tanti abire tanti vultu ntium in et
+  ob in sint mari arabia addunt vitia in angue usque suum orientem
+  in ubi in idumaeam in spei in vibio intus in saevitia fabio
+
+[f23r.1,@P0] (Voynich: 105 kelime -> Latince: 56 kelime)
+  aurium intus et arriae in enim alia rei in aspi in aiunt
+  in angue ubi in iactatu et ita in ova [tl] terra in
+  errori abire maceria alia ac cui in ne hi et toti tenui
+  tecti ingentia itaque sibi nube amico alia ac in isque raro fit
+  cibo iubet et sit et initia tenui erit
+
+[f23v.1,@P0] (Voynich: 86 kelime -> Latince: 39 kelime)
+  si ac in istum ac ante ad arabia raritate et ac in
+  bima ac cui non ego sine haesit utp meis sit in ita
+  in toti congio hi non aetna alia ac offae naresque rei et
+  ita utp ac
+
+[f24r.1,@P0] (Voynich: 109 kelime -> Latince: 61 kelime)
+  arti alia et aristo imperia in alia maiore initio vivae timendi alia
+  uvae offae non iure alia rivi vim vitia supra ad rivi iniuria
+  ad ansa exce in tione in anulo et priore ad oeensium id
+  in odore tibiae intima admi inde ac ad aerumna ad alia alere
+  oneravi ac in ad esse in angina altitu aerario in rei ad
+  iter
+
+[f24v.1,@P0] (Voynich: 83 kelime -> Latince: 32 kelime)
+  bra et utendi seri ictum bourn omnino sita tenui linteo lauri alia
+  urinae omnis duriore alia oriens austro exit nego isque sabaei tibiae exce
+  aerario nisi in suis in ictu iectura aiunt
+
+[f25r.1,@P0] (Voynich: 47 kelime -> Latince: 23 kelime)
+  in suum in ulce adimere inibi sponte hi [j] ad re in
+  oriente vi ad oriente octaviae in ne avium etiam de amico
+
+[f25v.1,@P0] (Voynich: 57 kelime -> Latince: 34 kelime)
+  tuis in stantia arriae octaviae rei in ad etsi in inde in
+  infe abire in alia in pretio bis in inde in enim supra
+  priore iniuria in ne ubi alia oriuntur ad spei in
+
+[f26r.1,@P0] (Voynich: 70 kelime -> Latince: 30 kelime)
+  rufa est auctorem utpote amavi quam vis ad et ad aetas oleam
+  angue ad caedis ad tiva infit iustitiae nempe arte ad in set
+  alvo et tecta tusco itemque et
+
+[f26v.1,@P0] (Voynich: 92 kelime -> Latince: 48 kelime)
+  plus etsi tiva ad atti sisti est artis iamque etiam de et
+  metu alia re arte nigerrima narem iubet narbo alia sale lassi iamque
+  trem strumae maesta arriae alia europae uersus nero alia ampli iniuriae iamque
+  maesta iniuriae idque effeta vitia sunt dubie ursae ad et aliis usum
+
+[f27r.1,@P0] (Voynich: 84 kelime -> Latince: 39 kelime)
+  si in si in nive aeris et aerario seri angitur aerario actione
+  offae vis in amico aurium arabia in abire bestiae mh inter mira
+  in mari iniecta oriente ad et oriente in erit ova offae agro
+  in [td] rivum
+
+[f27v.1,@P0] (Voynich: 54 kelime -> Latince: 19 kelime)
+  oris sunt ubi recti spontis secti probi agit victae bibi probari sura
+  risque natis etsi mh neve in apris
+
+[f28r.1,@P0] (Voynich: 60 kelime -> Latince: 22 kelime)
+  bra austeri contenti vivae [nm] intus vivo media se primo meis maiusque
+  strabo initio et urnas mine una in iubet prementi enim
+
+[f28v.1,@P0] (Voynich: 54 kelime -> Latince: 30 kelime)
+  isque sim in mari in abire inter et oriri rixa oriri et
+  supra eum suis in memoria in aspis iumenta hiatu ova in spatio
+  re vivo degi sura ulce ne
+
+[f29r.1,@P0] (Voynich: 60 kelime -> Latince: 27 kelime)
+  impia et mari intima bima ditur ac meis aurium in bima ubi
+  impe ulce te fui agro eboris meis sibi erit ita seri sumi
+  vel erit suf
+
+[f29v.1,@P0] (Voynich: 73 kelime -> Latince: 32 kelime)
+  si ac utp vis in ad oriri vires etsi oriri tuis nuntio
+  impia modis hiatu vis iter auctori aeris intubi in torva minus eam
+  seri urina striata in supra aiunt ad et
+
+[f30r.1,@P0] (Voynich: 92 kelime -> Latince: 46 kelime)
+  aeris aiunt [ml] in et si exire spei isque iussere sump adunci
+  reli aridae addere ignota arteriae mari meis addis oriri lulio in ne
+  alere ista ac [ml] alia rei infecta aerario etsi iamque estque iactant
+  oriri oriri in octo inde inde in iunco iugis ita
+
+[f30v.1,@P0] (Voynich: 62 kelime -> Latince: 35 kelime)
+  tofus sump aiunt rumpi ubi addito ac rei in ne vi in
+  meos nuntio in aeris vi in ne media uspiam essemus amico et
+  sibi aiunt vis in inter se sunt in id estque in
+
+[f31r.1,@P0] (Voynich: 102 kelime -> Latince: 62 kelime)
+  tice arriae [j] ad et octo in et ad et ervi iter
+  in et idque iamque ad et numero nec alia alii russeo erit
+  in aetatem fa ad et initio caedi sive set ter causae et
+  res fors re thurii fa [j] autem etiam aetate aetate nullae boni
+  urinae iubet et [ml] aetas fui nolle iunctae metu alia re in
+  aetas umquam
+
+[f31v.1,@P0] (Voynich: 110 kelime -> Latince: 69 kelime)
+  suum me ad alia alii me utp inde etsi ad tritae metu
+  in tritae etsi in ardet tussi in ob idque et opem cavea
+  tersui fe uerba ac indita alia et arte fui alia certi impe
+  me [ml] eruisse savia et toti [td] tulit invia eiusque rei et
+  alia aethio querna et spei uvae esse nexu ac et sale et
+  ut inde iussit te immo ad alia erit excoli
+
+[f32r.1,@P0] (Voynich: 71 kelime -> Latince: 37 kelime)
+  arruntio martio et uobis induunt abire vir in mh pri hiant ubi
+  in arriae minui ac amico alia in angues etsi octaviae in scabri
+  intel in ne vi mh maius in bima ac inter meis suis
+  iniecta
+
+[f32v.1,@P0] (Voynich: 79 kelime -> Latince: 46 kelime)
+  regni iam in iniuriae in oriente ac meis in scio pri in
+  ne aut alia urina oriente alia in estque in serito et aeris
+  isque impia impe alia ad aiunt in ne vi in antiate pretio
+  fui in sit oriri in sine ac vi ac seri
+
+[f33r.1,@P0] (Voynich: 74 kelime -> Latince: 52 kelime)
+  dh ante in ante itemque arme armum aetna meum cui et iamque
+  aetas sed ibi namque urnam iamque alia ac me praedia itinere spei
+  appiae et ad alia et iam ac ita et etiam sed ervi
+  et ultima suum euboea in iamque tota in tenui agro et alia
+  et implet alia esse
+
+[f33v.1,@P0] (Voynich: 93 kelime -> Latince: 55 kelime)
+  me alia vi alia et ab angue in ultione sciat in earn
+  in eius in ante exin in mumque in geni ceteri rore hae
+  atque anne in ne alia set iubet et in et chio de
+  alia et rei alia si alia in ne qui alia alii rei
+  et alia tormi me ac et ambo
+
+[f34r.1,@P0] (Voynich: 123 kelime -> Latince: 70 kelime)
+  ceu bron iam mam fe et meos de anno bimi meis eadem
+  iam tune urnam in eorum angue themi sese ac earum ita mumque
+  iurgia iamque intrita nube ad ad atti atti inculta ubique tuis etsi
+  aetas supra ad et re et ita alia scias id arbuti alia
+  in angue esse iocur igne abire alia me primae viii alia alii
+  et et ac cui iter omniumque idque iamque iamque tota
+
+[f34v.1,@P0] (Voynich: 117 kelime -> Latince: 67 kelime)
+  ignarae sisti est omnium bibi scies deinde et ut meis sed quare
+  alia ac omnia ab scio iamque sorba side aetna aetna re in
+  alto alia atti siccae erit ple impe uberiora alia fieri erit erit
+  in aetate ad atti spumae me alia addi iamque alia aetna sed
+  urnas in aetate ubi erit erit aetna in eorum iubet sive erat
+  ego alia terna in ad et aetatis
+
+[f35r.1,@P0] (Voynich: 88 kelime -> Latince: 53 kelime)
+  alia alcimae audire in etsi meis aiunt in octaviae intima inter induere
+  in intus ante mh in ne alia mh re in intima satietate
+  in arti ego et ego et ut arandi alia sura ad in
+  rivi ac aurique acaciae oriri aurium ubi astruere belli moveri et intenta
+  mari ad ora in me
+
+[f35v.1,@P0] (Voynich: 91 kelime -> Latince: 53 kelime)
+  te fui alia aiunt et intubum ictum id in intenta octaviae et
+  fascia sint omnia intentus sit in inter ubi risque ac xiiii ab
+  aegro incocta in et in et in ad ac urinae alia iugis
+  me in iter iubeant initio in et in ne ulce in alia
+  et iter in secti induruere
+
+[f36r.1,@P0] (Voynich: 51 kelime -> Latince: 24 kelime)
+  oleo inposi nisi ovium caeli sim meis priore in iumenta aiunt in
+  sine actione in lauri tiva et amavit in aiunt vareni in iuxta
+
+[f36v.1,@P0] (Voynich: 74 kelime -> Latince: 39 kelime)
+  studiose montium sine in mari in imum maria ergo indiam aestimant ad
+  aiunt et etiam venti in ne vi in initio tibiae et ad
+  risque antonio et toti et addi in iam omnium bima suadeo tempe
+  vim inposi prae
+
+[f37r.1,@P0] (Voynich: 73 kelime -> Latince: 37 kelime)
+  si murram addi in admi alia austro vitia inter potui si mis
+  tiva in indita in ne erit iubent aspis sibi in dari toti
+  in striata sine antiate aurium et auctoris iter fabio in inde in
+  ne
+
+[f37v.1,@P0] (Voynich: 89 kelime -> Latince: 51 kelime)
+  video oneravi in si in ne proprie in ictum in ante idem
+  aiunt in maxi in iniuria sativa in inpari et astruere europae addi
+  vi in rumpi in europae admi sine [td] in ne iam in
+  media in ne iam in et ita in ad etiam in ne
+  mari pomaria in
+
+[f38r.1,@P0] (Voynich: 38 kelime -> Latince: 21 kelime)
+  xii usque ciet usquam amavi tibi eum seri spei alia in ne
+  et id et tauri vi in suis austri in
+
+[f38v.1,@P0] (Voynich: 60 kelime -> Latince: 41 kelime)
+  eorum etsi mh in et in axis tuis ad rei et totae
+  in aetate in ad et in et autem idem prae in iam
+  in rei arce axis esse etiam in ne in cura in alia
+  amavi et ut eorum si
+
+[f39r.1,@P0] (Voynich: 157 kelime -> Latince: 92 kelime)
+  acrius dies in lippi sermo in quemque et cera macie atque iamque
+  savia et oceano alia erunt erice aerario alia oleo officia auctore tempe
+  angue arriae sebo lauri ulce arbore scaenae alia ac ne ad me
+  proque sit spei arriae earn disci intus initio dh se alia intra
+  occisae indicae prae alia et ut erit parien et scio ad et
+  cui et ita [ml] et enim sed eius iter et meum ad
+  et in atqui ac in erit in iam earn pe ac re
+  in ne ac alia in et metu notae
+
+[f39v.1,@P0] (Voynich: 139 kelime -> Latince: 85 kelime)
+  re alia atti arretio alia et sedis et aurium ubi penuria tenui
+  in ne erit id alia et et admi earn et texere et
+  ostrea incitet in et in et fri alia ervi etiam alia et
+  utendi ac etiam alia arriae pube seri alia cuius meis et sit
+  alia iunctae et papa namque ubi nummum et in alia immerito dh
+  et isque alia ne alia et alia iter alia seri tusco amavi
+  in urticam suadeo aetas fundi in eundem et tiva et me et
+  ita
+
+[f40r.1,@P0] (Voynich: 92 kelime -> Latince: 50 kelime)
+  statui et saepe alia aetate tuta erit eius iter intra et et
+  aeterna alia et aetate et [tl] ac et ac re alia alii
+  alia iam alia alii [ntq] alia ins ille ornare talemque esse initio
+  prae alia immo in iam ac ciet et taedio equitatu accen rupe
+  et lini
+
+[f40v.1,@P0] (Voynich: 99 kelime -> Latince: 53 kelime)
+  plici admotae ac ad atti immota earn extat scio tice scio ac
+  re in suum iter ad alia iunco tanti iustitiae ac ante utile
+  mh iter amavi amplae in iter taedio et aqua iubet iubens ruben
+  alia iam pro et ita et asiatica alia aetate aeternitate alia taedio
+  misce tucci echo est ergo
+
+[f41r.1,@P0] (Voynich: 145 kelime -> Latince: 69 kelime)
+  [ls] uerba ante etsi illita in [td] tacite in aetate et umquam
+  vesti offam iam ingentia idem tecta amavi ardui itemque se bimae spei
+  ture etiam cerae sciat itemque notae itemque iamque in iugo ac meis
+  aetate itemque arriae mine praeeunte ad et ervi aetatem taxi ursi angue
+  arsit arsit aetatis aliqua in alia male ac sola iam toti alia
+  mare et tussi inde et ars ac in aperit
+
+[f42r.1,@P0] (Voynich: 133 kelime -> Latince: 63 kelime)
+  oppi inter iamque hiera fimo odore nisi argen vitae adsum dari chio
+  austeri isque si offae visus maiore et intenta ovium dein avium ova
+  in mari ex in sive iectura sim sinu artius suis in ne
+  suisque media sed iunco huius se hique sergia in estque spinae meis
+  adde in medias ad dies runtque tuis aeris aeris oriri sibi grandi
+  addi alia auribus
+
+[f42v.1,@P0] (Voynich: 98 kelime -> Latince: 47 kelime)
+  seri mari in praeeunte et bima in sim edito aerumna repente de
+  et ita alia rei ergo vi in oeensium sump taedio seri infe
+  mh abire sic in et tibi ego et marcia in rei ac
+  aurium et seri meis in maiore bovi alium si erit tenui
+
+[f43r.1,@P0] (Voynich: 153 kelime -> Latince: 82 kelime)
+  morte eius et sine nemo eorum eum alia argen intra armis etsi
+  ante in imum iam impune sic amat spinae et earn alia meum
+  utile impia rqa earum altae ter europam tenui anguem et alto uberem
+  vitreo maiusque est arbiter in aestate unguenta retro sim praeire in si
+  [tl] iam aetna primae iniuriae in ordine murrae est in tument meis
+  sumemus dh apium iuxta iamque in nisi et suum et strata meis
+  imum in adips me in scio et uersus ovium dein
+
+[f43v.1,@P0] (Voynich: 151 kelime -> Latince: 83 kelime)
+  alia [sh] alia oleum sive mare iners tormi iubet europam amat fui
+  spatio erit et araneis etsi et offae immo sive erit si verno
+  euboea acri omnes pretio uerbis uerbis mihi ursae eorum omnia altum mari
+  mire rex in me fetant et inde alia aetna eorum ad est
+  est appius alia atti matre alia impune scire media [j] tune earum
+  mire vim alia et ne prima inde in uersum arbore et fa
+  apio iamque ex europae arme erit tuis etsi ac et iter
+
+[f44r.1,@P0] (Voynich: 73 kelime -> Latince: 37 kelime)
+  supra et metu obiecta in iam in arabia ubi axungiae ripa mare
+  amplius iam in pri et intus et intentione intus ha [ls] est
+  ista arriae iubent ac tanti bibi bima etiam suum seri angue hi
+  inde
+
+[f44v.1,@P0] (Voynich: 98 kelime -> Latince: 52 kelime)
+  hi hi viii in ramis mihi rabiem venti in sim alia amabit
+  imum in vivo suis afris et intorto sive sine iubent amavi imum
+  acumine et bimae tentiam in tanti vi in rivi unius supra ac
+  et indo amne colli ab huius in vitia iter aurium sit avium
+  eorum aerumna vivo quis
+
+[f45r.1,@P0] (Voynich: 87 kelime -> Latince: 46 kelime)
+  meis arteriae est ista arriae sive toti iter ratione insomnia ubi in
+  vir tice et aetate et tuis stibi mihi boni in intubi in
+  eminus etsi quale et tinent vino vi in ne alia re in
+  mentiti in aetas et tucci amavi amavi urinae ac tibi
+
+[f45v.1,@P0] (Voynich: 75 kelime -> Latince: 34 kelime)
+  spatio aeris bestiae iter in vibio [tl] ad ubi ac alia eorum
+  mira tenuia abunde in amicis maxi bononiae ad et sine ibi prae
+  et eosque nisi in ora vero pro hiatu alia oriente
+
+[f46r.1,@P0] (Voynich: 162 kelime -> Latince: 91 kelime)
+  mergi in die jam in [j] in amavi impe scio in eius
+  et ipsa in sit in impetu ad et [j] et in rei
+  arme scio arme iamque scio ervi ervi terve ita seri fri meam
+  uerum [j] testis et estis tentia euboea ad alia rivi mare etiamne
+  ansa priore scias eius aspexi uvae ad solari hae serra si rqa
+  arriae in chio frumentis aspis edita sese dh in sisti campo ad
+  in meis alia et [ml] sit ipsa re alia tuis et urinae
+  utp ceu et ter tangi ornate sit
+
+[f46v.1,@P0] (Voynich: 111 kelime -> Latince: 56 kelime)
+  artes est marrubii in inque et ante armi in etiam alia comite
+  europae in aiunt ursae adsum dies etiam eum seri ingenia scias dici
+  escam et in et set erit in erit ad alia atti vim
+  suci meis armatae xiv insecta ampli angue fa quaerit alia musaeus prusae
+  alia erit mains meum anguium acaciae omnia ter
+
+[f47r.1,@P0] (Voynich: 73 kelime -> Latince: 39 kelime)
+  campis in re estque rei alcimae ac et iniuria oriri induere in
+  tiva misera in ne illa arida aeris et siser ulce bovi rarior
+  runtque rixa sit iter iter in bis antiate mari intenta in angue
+  prius in ne
+
+[f47v.1,@P0] (Voynich: 75 kelime -> Latince: 31 kelime)
+  re prius sine intus eorum in intimo sit seri nisi ex arido
+  amico in dente urgeri rei in et intenta xeno mari rei erit
+  in rarior oriri in pri in rei
+
+[f48r.1,@P0] (Voynich: 88 kelime -> Latince: 44 kelime)
+  est ustionem tice in arce trem supra ante creat indiam fe impune
+  orci ac tenui inimicae in metu argema metu hae ergo alia me
+  mersa ille iuncta vi et vena illa ponte timeam fa et totam
+  vitem ac alia terna sim tangi alia apio
+
+[f48v.1,@P0] (Voynich: 114 kelime -> Latince: 52 kelime)
+  prae arriae et osseis aestimare et eorum et mergi quiete et ursae
+  [sh] exire et emitti insecta hi etiam malvae et tunsae pavo mardi
+  etiam altius et etiam alia ac alia aut et maerens plumae uellem
+  mare scietur armi ultimas mumque culta eum mira res duas privatae alia
+  latice et alto alia
+
+[f49r.1,@P0] (Voynich: 244 kelime -> Latince: 116 kelime)
+  in suis est sibi meis ustione in ictu in nesque in res
+  earum ac alia utero baripe media oriri utp risque si alia exesis
+  secti augebo in omnia re et ante in sesima in oriri ex
+  in rei recti cui ac oriri iubent seri iniuriam alia re estque
+  inter lacte aurium suisque sibi sandi omni vi anguis obrui intenta estque
+  meis iunco iugo in iniuria [nm] isque in atqui in octaviae in
+  amisum sandi in ne etiam ubi ad rei in sint ictu in
+  rei estque infe impe medio interior ad aerumnis oriri in rei in
+  oriri iussu iugera modi bimae seri in re in iamque arabia ad
+  inter oriri in oriri [ml] alia re in
+
+[f50r.1,@P0] (Voynich: 91 kelime -> Latince: 50 kelime)
+  [ls] istum ac et caudice in aetate et vitae alia earn hiatu
+  sors taxo abest spongia inter iubet alia alii cui utp scabie iubet
+  alia et iubet alia et tempe ac iubet imago pe in etiam
+  et imum impetu labes etsi aetate ante sunt notae ardente aetate aetna
+  scio spei
+
+[f50v.1,@P0] (Voynich: 98 kelime -> Latince: 51 kelime)
+  antonio aetna abest ut sippi excuti sermo erat ursae erit ostreis iuvatque
+  amavi esset et tunica utp et ut ac tabe misce alia et
+  rei inque ascanio re spei in texit tibi etiam auspi crine alia
+  toti in meis antiate acce metu iubet scapi tenuia immerito tecti itaque
+  alia quiete iubebo
+
+[f51r.1,@P0] (Voynich: 86 kelime -> Latince: 33 kelime)
+  antistio exinde metu in taetri indigena utendi mari in meis agro alia
+  bibi meis nandi etiam in inane boni sit bis ornata tendit invito
+  inde induunt in in ac angit orandi ad alia
+
+[f51v.1,@P0] (Voynich: 75 kelime -> Latince: 38 kelime)
+  obrui id in ita in vivo ascanio delta minime suf ad in
+  admota ebria mine et tus in iter in iam incuria alia ad
+  tenui oppi in indis tempe ostrea [td] satureia [ds] in arandi in
+  res fe
+
+[f52r.1,@P0] (Voynich: 63 kelime -> Latince: 27 kelime)
+  inquies oppi in stantia enim meis [tl] ita [nm] iam baltei ac
+  tanti minime iter iubebo sim in ordine in inibi ansa alia araneis
+  ad re in
+
+[f52v.1,@P0] (Voynich: 77 kelime -> Latince: 40 kelime)
+  stantium tanti rivi rufa sit oriri iungere utp meis alto aiunt vivo
+  iugero esca inpo amavi sale admi vim aestivo et vitae ad ac
+  in induere in astruere id ad et in sananda id iunctae inde
+  indita ne [td] inde
+
+[f53r.1,@P0] (Voynich: 57 kelime -> Latince: 24 kelime)
+  minui in ad rumpi meis dianae tanti admi squama et apri strumae
+  minore offae nantium agro iubent enim supra et ut mari deli unciam
+
+[f53v.1,@P0] (Voynich: 72 kelime -> Latince: 33 kelime)
+  huius in iustitiae in intus si vino oneravi anguium toti iuvandi ubi
+  in ne sandi scio in in priore admi obrui arce ictu admoneo
+  suum fusae mine bruti funebri hi alia ager iubet
+
+[f54r.1,@P0] (Voynich: 98 kelime -> Latince: 51 kelime)
+  ebria est admi intenta odore fama ac ad alia anguium indita dies
+  iam sanguine ad suis alia re angue angue inde nuntius ad aiunt
+  alia ac edito arandi seri in iam ac in alia oriri indita
+  ac [tl] in ita alia ac induere anguis rubri et ut ac
+  in atti et
+
+[f54v.1,@P0] (Voynich: 93 kelime -> Latince: 52 kelime)
+  inde notae ad ac sine ad alia irino stetit exire insaniae eorumque
+  erit exire in enim iter ad oeensium urinae metu in me faveo
+  ad et aiunt in ita arcet insania inde in altitu in tusco
+  tenui iuvandi urnam rivi ad et erit uiuendum sine alto alia quam
+  in ne rei aetna
+
+[f55r.1,@P0] (Voynich: 122 kelime -> Latince: 65 kelime)
+  aetate ibide acce alia et ex acce et aetate ac et alia
+  ac respuit asperitate scio ad et in alia lauri alia titen et
+  alia et tarenti in sit iter erat ex usque intubi earumque metu
+  in iamque nescio initio penita in amicitia et alia et alia initio
+  ac erit in terna nisi mundi [nm] iam pro in toto et
+  alia inde in meum summae
+
+[f55v.1,@P0] (Voynich: 93 kelime -> Latince: 47 kelime)
+  metu assidue immo ac et ac tunsae tusco tritae initio erit erit
+  in acce iamque et alia bestiae alia causa etsi mare et aetate
+  et iubet reli et aetate ac ad et etiam et aetate ac
+  taetri implet alia et oleo in alia iamque et in alto
+
+[f56r.1,@P0] (Voynich: 99 kelime -> Latince: 59 kelime)
+  media oriri estque rei alcimae duntque qui estque erit etiam si maior
+  eorum si spirare in ubi in iactatu in et sibi intimo sinu
+  mh eximia si bis intima oriente maius et mari alia tuis euboea
+  in vi agrum suis arabia bibi ad remedia intenta inter venti xiv
+  alia aurium sebo mh in et in si estque antiate in
+
+[f56v.1,@P0] (Voynich: 90 kelime -> Latince: 51 kelime)
+  seri austri sunt addi arcem in moveri reuerentia in in mh mari
+  in ne sabaei ad et estque aeris arabia estque iubent ita estque
+  iubet uti ac busque sim media et in iussere iubent bove potui
+  et addis si in regio abire meis medio interior in media ad
+  et uberiora in
+
+[f57r.1,@P0] (Voynich: 83 kelime -> Latince: 41 kelime)
+  enim fe in iam fieri fa atti iurgia agendi [ds] sabaei ad
+  nausiam tersui sors atrae troclea eam tetra ad ubi in earn scabie
+  ista in urbis et ervum inquies rore inimica [j] inde de ac
+  in revo et sola pro
+
+[f58r.1,@P0] (Voynich: 377 kelime -> Latince: 170 kelime)
+  tarquiniensi alia induere imum multae media interque ad pri et anuli oeensium
+  mare alia ac re alia liorque imum et maeotide enim et intima
+  virum et in re et eius in iam alia enses maciem et
+  arcadia rqa amavi laesum alia in ulcus me [j] tegi etruria rei
+  ac cocci iamque tormi curari fas in eius alia atti aestum sartio
+  in titen ad caucasiae etsi sulci enim uvae et etiam admi iam
+  enormi iuxta armi effari quic [sh] amavi rqa alia erumpit in ripae
+  memoria inedia aeris cum de iussum femi meis edisse alia rqa iamque
+  amplum pe alia aetna usque [ntq] imum alia iam ac gauge rei
+  alia oeensium vir ad atti [ntq] amavi aridae cum vir alia regio
+  alia oeensium alia armorum ac exire rqa metu alia rei ac iter
+  ornata titen ac rei rqa arme ore armati in amisum vermi armis
+  et indus alia et [ntq] adsit omnia sine spei ad armis limite
+  utp et totae ac sandi armi alia armati ambo actium sed initio
+  ad qui
+
+[f58v.1,@P0] (Voynich: 366 kelime -> Latince: 204 kelime)
+  martio arti arte arti artium ac alia inque et ad et ursae
+  inque alia cadmiae metu etiam vi alia alii et acce et amico
+  ac toti armati ita alia imum tormi armi acce alia cuius in
+  ulce initio arriae armati et in totoque armum et umquam indiam vaccae
+  aciem et iam tormi angue cui adsit infe occasio toti tormi lentis
+  maccio alia et tunc ampli agit fui in statui pri [sh] iam
+  graeciae et omnium aetas attico aeris mirum alia meam utile ad atti
+  iter alto angue earn acce armati ac in acini item incessere agro
+  maiore impendio ne et indita alia autem sit urinae meis alia esset
+  mira et alia oceani iam etiam cum praealto et sit in toti
+  atti immo alia utp urnam iovem aetas tormi acce alia tormi ita
+  ac cui ita alia ac ervi ecce et ad et ac et
+  bene et ratio uterque armatos etsi et amavi metu exinde in torva
+  aetate aetate ac unguenta erit et tota sit alia alsium et toto
+  et iugum et quare alia aurium impe iussu alia inest armi in
+  metu erit campi amavi tiendo toti [ntq] etiam vi pota alia meis
+  inquam meis amplum avem et aetate et toti itemque se terna impe
+
+[f65v.1,@P0] (Voynich: 39 kelime -> Latince: 18 kelime)
+  sine arte oppi in antas ac atti iam fratre europae meum ferri
+  prae uersum sit in antias eritque
+
+[f66r.50,@P0] (Voynich: 294 kelime -> Latince: 146 kelime)
+  maesta dh idque ervi tacite aetate totisque uvae invia ubi in mque
+  ore scies maerore crinem et alia metu ursae arsit ervum et etiam
+  tersui etiamne pretio iners isque arti fruit media nates itemque etiam argu
+  alia sabaei istum offae achaiae boumque amavi in nisi europae ac et
+  ac amplior fa spatio et in maiorque urinae amico sardae ac cuius
+  geni set suum vero oculis in situ ac et apri ursae armis
+  eius amico idque ac in ne inani trem acaciae muciano armati ac
+  tuis etsi cursore uersus res sit iam vero item fu omnino sors
+  eximia metu ac aetna uellem suumque aurium tusco secti iamque genuina sentit
+  in altos mare ac alia apium alia ac in sive itaque armati
+  imum antiate alia potui [td] buxeo me fiet oceani et impelli quare
+  ervum vi sum aetna est struunt sine in soli si etiam potique
+  purga atque
+
+[f66v.1,@P0] (Voynich: 113 kelime -> Latince: 50 kelime)
+  ustione iniuria ponte priusque etiam vim id ad alia intus ignotae oceani
+  maxi iamque in sale organa ascanio utinamque nisi etiam si enim fe
+  grauari impe uersum faex intenta tribue et itemque iurgia strumae fe saburra
+  pretio aut alia etenim et idem mare itemque namque sciat tenuis in
+  ardea bimae
+
+[f67r1.1,@P0] (Voynich: 41 kelime -> Latince: 29 kelime)
+  side clausi arti et ut rufa ursae iunctae eadem tussi iugo ad
+  et sale et alia oeensium vi angues fui iamque ad alia atti
+  ad et alia eorum cavi
+
+[f67r2.13,@Pb] (Voynich: 7 kelime -> Latince: 5 kelime)
+  ad immo ceu inpo ceu
+
+[f67r2.16,@Pb] (Voynich: 10 kelime -> Latince: 7 kelime)
+  iunctae et aiunt in ista in in
+
+[f67r2.19,@Pb] (Voynich: 9 kelime -> Latince: 4 kelime)
+  immo alia insidens alia
+
+[f67r2.23,@Pb] (Voynich: 6 kelime -> Latince: 3 kelime)
+  appiae alia angue
+
+[f67r2.26,@Pb] (Voynich: 7 kelime -> Latince: 5 kelime)
+  mirum tussi alia et ansa
+
+[f67r2.29,@Pb] (Voynich: 4 kelime -> Latince: 2 kelime)
+  europae dorica
+
+[f67r2.32,@Pb] (Voynich: 7 kelime -> Latince: 3 kelime)
+  attico exce in
+
+[f67r2.35,@Pb] (Voynich: 6 kelime -> Latince: 3 kelime)
+  arietum in alia
+
+[f67r2.38,@Pb] (Voynich: 8 kelime -> Latince: 2 kelime)
+  dif in
+
+[f67r2.41,@Pb] (Voynich: 9 kelime -> Latince: 4 kelime)
+  grandi in et ad
+
+[f67r2.44,@Pb] (Voynich: 8 kelime -> Latince: 5 kelime)
+  meo fui et trade tiva
+
+[f67r2.48,@Pb] (Voynich: 9 kelime -> Latince: 6 kelime)
+  admi in ne ad et id
+
+[f67r2.72,@P0] (Voynich: 36 kelime -> Latince: 17 kelime)
+  ne aetna inani austri cito id bibat alia causae metus aliunde agro
+  et metu strenui alia atti
+
+[f67v2.3,@Pb] (Voynich: 11 kelime -> Latince: 8 kelime)
+  iam alia immo ansa idque in alia ita
+
+[f67v2.5,@Pb] (Voynich: 6 kelime -> Latince: 2 kelime)
+  tersui angue
+
+[f67v2.7,@Pb] (Voynich: 8 kelime -> Latince: 3 kelime)
+  angues enim vi
+
+[f67v2.9,@Pb] (Voynich: 9 kelime -> Latince: 5 kelime)
+  iussu alia ostrea arti ac
+
+[f68r1.1,@P0] (Voynich: 27 kelime -> Latince: 9 kelime)
+  supra medio sine eorum esse eorum reuincat seri electio
+
+[f68r1.5,@Pb] (Voynich: 3 kelime -> Latince: 2 kelime)
+  tuis etsi
+
+[f68r2.1,@P0] (Voynich: 36 kelime -> Latince: 12 kelime)
+  rumpi inest sectam item ser ambo iubet imperio [ml] inde taetri ursae
+
+[f68v3.1,@P0] (Voynich: 43 kelime -> Latince: 18 kelime)
+  intus mediis ad rubri habeo sese inter se in me fiet intrare
+  meis meis dierumque in enim octo
+
+[f68v3.17,@Pb] (Voynich: 11 kelime -> Latince: 5 kelime)
+  aetas etsi amavi in tenui
+
+[f68v2.1,@P0] (Voynich: 43 kelime -> Latince: 22 kelime)
+  cleo etiam uersus intacta secti tenui in amavi exce ervi fre ad
+  quive cleo angit me fiet uersus tauri ita gaudio alia
+
+[f69r.1,@P0] (Voynich: 35 kelime -> Latince: 15 kelime)
+  sartio aeris ac meum de in setius mire vim et iter et
+  interim bima aspis
+
+[f70r2.1,@P1] (Voynich: 101 kelime -> Latince: 56 kelime)
+  intus spei ac alia alii seri ambo macer ad pri angue ac
+  etsi et ad aetna sive ervi et intra in aetas imum mango
+  mani omnia mire enim alia ac cui in ne impia metu in
+  oceani visus amavi et [ntq] aurium erit in media et ratio frenis
+  iter magi et tigna erit ad alia alia
+
+[f75r.1,@P0] (Voynich: 375 kelime -> Latince: 192 kelime)
+  ter meis in suumque lati tantae senno pe alia illita in satis
+  et sit alia immo ac uellet toti etiamne tuto estur ter cerati
+  dari et scillae tabe omnis vita quod primo tusco in meum quiete
+  acce in aetatis initio alia ac aeris in illita aestate aetate et
+  illud ac aetate sciet macie edito alia sebo et pretia eius iter
+  plateis earn dies causae aridae cuiusque casia et alia aliis lauri quis
+  iter ac iacens ne sit si ter adest isque ticae tepe ithaca
+  ac id atque tusique ambo in ac eius in ac mulsi suum
+  europae in lenti est taeda set in spei in copia ac in
+  equitare in implet itemque ita in re et armis et pretio sciet
+  seri urbe autem vino si tenuis meis aceto ac eius ac erat
+  omni anne ad potui enim etiam ac tinnitu et inanes et cauda
+  et toto autem et in aetate igne ciet et aetate et causae
+  aetate apium [tl] nisi et sine te etiam uti in taedio pretio
+  autem minui suumque aceti spumae coctae edito etiam [tl] multae cuius de
+  in atque ita etiam meum iam toti aetas et in sim erice
+
+[f75r.47,@Pb] (Voynich: 10 kelime -> Latince: 5 kelime)
+  edito amavi aeris etsi supra
+
+[f75v.1,@P0] (Voynich: 55 kelime -> Latince: 24 kelime)
+  plastae testa alto gerit in intus meum mixtae ceps tuetur taedio ac
+  coepi erit mille octo uellet alia secuti dardae aetate ipsa inde illa
+
+[f75v.38,@P0] (Voynich: 145 kelime -> Latince: 84 kelime)
+  tenui alibi et quiete arvina tepe causae et sit alia erit ac
+  et tenui acaciae ac sereni ac set caedi set summa ac si
+  ac sit cura sura alia et ac suillo et aetate alia [ml]
+  etiam per me in ac cui ipsa et ac erucae eruca et
+  quis itaque latae et aceto item et in eorum ipsa aetate et
+  enim quiete ille tune ac set et melle cesse eritque iniuriae ac
+  erit mine in artis ter ille quiete et crocei ad quiete tepe
+
+[f75v.60,@P1] (Voynich: 59 kelime -> Latince: 32 kelime)
+  aetate ante cuique inpo ac antiate in ac illic macie erit acaciae
+  in aetas ciet in ne et ita in otiosum obici et etiam
+  et vis misce coepi picea erit quae mali
+
+[f76r.1,@P0] (Voynich: 560 kelime -> Latince: 307 kelime)
+  [ls] [ls] istud ad et prave in totae sicae immota satiatae et
+  aceto fri meum sim ac erit et alia alii alia motu per
+  iubet testa etsi aliis aetas ac cui fine [ml] tice arbuti seri
+  potione et iamque corde ac atqui alia immo immo upupae ammento opera
+  nam vel maiore ac eorumque in scio idem se ac et in
+  id ad alia satiatae tethea scitote ipsa etiam in et et aridae
+  uerba ac alia et alia immo quis ore eritque aetate et sive
+  etiam maiore scias ripae set et erat coctae quiete et arietis asello
+  quae priore aqua itaque misce atqui queat quo utique comes rqa inedia
+  sese et rore tusco qui ac immo sic raetica sermo in cera
+  et iocur et quiescere taurica quaeri et ardui sit quae cummi erit
+  torique ac cui in sigeo ac et incitari iniuriae enim aetas eius
+  aetas et nisi aetate et cui et etiam ore autem ventis aut
+  pede origo alia immota in erit aeris reli aeris et potui sisti
+  ac stibi scio sic alia ac sine oris sese suis etiam iudicio
+  dies ille autumni earum ariciae omnia sciat siser illa aerario rqa ac
+  curatio alia et aciem quaeri alluitur [ls] est usque etiam meique atqui
+  itaque ista in sorba quidem in quod alia itaque totque metu sit
+  in re in rei ulla in aurique comes in dies et iter
+  acaciae eritque metu copia ac usum tertio et eius alia et sit
+  et arida immo si scio in impetu metu quare ter exta in
+  scio alia et sandi suum cotidie atqui pituitae meam uerbis taedio coitu
+  sed ita ac ter pe ac istud in saepe etiam sues et
+  deli ustione restituat et pelle aetas media causae ac fieri arduum praetenui
+  alia erice urbi equis ideoque ulce et ut dies alia alii ac
+  et aetna saevitia ac set alia eius
+
+[f76v.1,@P0] (Voynich: 393 kelime -> Latince: 203 kelime)
+  testium uellet crito seri tecta etiam fieri tepe taedio in etiam alia
+  ad me etiamne alvo et aetate pota exce scias et quiete meum
+  etiam et urbanae ter set et ciet opti alia ac serio lauri
+  alia ac re ardui stupra sentio in ne rosae in iunctae aetatem
+  sit senno timore theocriti urinae dies causae essem eorum macie et cariem
+  avem metu manent ille fieri aethio aetas adipe [ntq] me excuti per
+  illo unde inopiae iter in pe alia duas eam sunt sive aqua
+  sive sive penita ac sive ille ter et avem sed esca effari
+  quoque media si maiore meique ture ceraque iactatu antiate sese aridae tolli
+  neque illa squatinae sisti inedia pretio [ml] in sive tusco acaciae in
+  atque et eademque immo alia immo et adips et idque ipsa ac
+  itaque dies tepe quae ac [ml] tentia et offae aiunt spei ervi
+  re idque iam prima etiam maiore meis mare iter misce imum idem
+  atque iterum sinu est media iuxta offae quiete ille quiete dici in
+  eorum itaque offae ac iam pro ervi toti dedi diu res et
+  ceteri alia ac alia et [nm] illita set ac taedio tenui desiit
+  in seri et rore et dies erit erucae alia et eius
+
+[f77r.9,@P0] (Voynich: 321 kelime -> Latince: 171 kelime)
+  ac iter est stipe alia sim materia tergo idem et serius etiam
+  et meum nefariae ardui fiat acies sumere illa tice aridae impe maeotis
+  autem aetas meis tot ac et quic merito seque et cum maeotide
+  tice in ore ille ac alia offae ipse cariem itaque uellet aetate
+  et cariem impetu metu suum fusae aetate et rumpi me ac quae
+  alia immo rufi erit toti auroque uellet erit in nisi si nempe
+  quem et sit ordine res etsi metu et omniaque armati aetas etiam
+  quam utique dedi egit autem tusco adipe implicita sciat me mixtae alii
+  immo re ac res etsi in recita arcadiae in aetas requieta tuis
+  vel tauri et sit fui praesto merito itaque eorum ter auroque artis
+  et cannae sicae cur ipse illius cui tiva ac tempe meis meum
+  in siqua meum alia immo sura ad alitem et aetate ad et
+  ac in invia ac eorum meum alius curae iussere in ita [ml]
+  in ad immo ac alia in mari eadem in sane eadem vi
+  meis etsi amavi
+
+[f77v.6,@P0] (Voynich: 321 kelime -> Latince: 163 kelime)
+  semine urinae alsium metu nulli ille erat ille dh ripae asses aetatis
+  meae lactisque auroque ac cui sit erice sive dies iter et causae
+  condi iniuriae iter nisi tenui quique ardet iter et seri cerae id
+  ser tione eius erit erit illini quique alia auriculae alia aceti sacri
+  in aetas et etiam quae causa iubet in ciet eius toto ita
+  enim vel sit eorum pro erucae in aetate ardet serra pecuariae pasci
+  tenuit offae ac eius ac ita [ml] ac in ne intus et
+  in aetate aliquam prusae tudines et alium acies infuso aetate scabie aetna
+  haut ferri iamque aderat ac erit uerba ac seque illum vino praesto
+  ac ramis ac set aquitania in res ita etiam aminnea quaeri illatis
+  vitia etiamque alere tenui et minui laesum in optet intus et aetas
+  et tuis etsi antiate set aquaticae lauri mh materia in suis aetate
+  tecta iubet et semine et alias id erit dies terna auroque apio
+  in tenui sed ac licentia aetate quiete
+
+[f78r.3,@P0] (Voynich: 286 kelime -> Latince: 172 kelime)
+  sisti et in toti aetate sentiam pingue iamque iniuriae aetate opem minui
+  sorba omnium in alia etiam aetate in aetate ad pretio aetatis et
+  sit mh aetate et eorum in prieneo etiam meum iam toti imam
+  atque alia nervo et ignem ac miscet ac aetate et etiam in
+  me in dies vii alia scione turbae ac iubet tenui alia ticae
+  potui creat fa alia inputata ista et ac ratione alia et ut
+  [ml] et aetatis arida seq templi fiat in esca deos optet et
+  aetate et ciet pilae dies chio alia summae in scio ceu ac
+  uti iubent arriae arriae rqa ac tusco in mutatio in rei ac
+  aetate in opinio eorum ipsa etiam suum quove tendit europae tormi in
+  me in et ut uellet ita ac et pretio est armenia ita
+  et etsi ansa et dies vii templi in ne et ac et
+  antiquae utp inde alia id ac ad et [j] et caedi et
+  me ac et eorum etiam ac aetas causae uti in aetas aderat
+  in ne quaestio tenui
+
+[f78v.1,@P0] (Voynich: 292 kelime -> Latince: 180 kelime)
+  ter lino errat uellet avem et inani nomine et argillae etenim ac
+  angue ac ore ille ac et ac cui lapi pe ac cui
+  ampli initia in quem et alia erit qui aetate et aciem et
+  semis et etiam me autem etiam et notae in et ut pota
+  ac fiet me pretio alia sistit est cera aceto uti ac erat
+  omni in suo ac totque rqa illita odore tot curae itaque ac
+  saepe iter et oneri quiete alia sciam et utp illa alia eius
+  in aetate quiete in acaciae sic quoque actione apio in eritque tunicae
+  aciem aliquae ac fusae caeli arriae aestate arteriae qui sine ac armi
+  ore ille illum ac aetas maeotis ac sit iubet ac erucae cera
+  metu ac set in meis ac asello suisque sit arce quae ac
+  alia ac ita alia suum ac side arriae rqa ciet alia ac
+  utp eius ac re anne upupae sit et ac me omni et
+  in quenti cera ac ad iam pro ac solidae sed alia me
+  pretio innata aliud alia alii ictum eum melle iocur eius in uterque
+
+[f79r.1,@P0] (Voynich: 383 kelime -> Latince: 205 kelime)
+  sisti alia arvum si emolliunt illac suum misce et requieta infimae enim
+  intus et tulli quiete ac aetas omnia alia ego caesari ac aerario
+  aeris et ac potui ideoque caritas alno ac erit aurium et iter
+  tardi ubi omnia et alcaeo id salsae et sequi materni usque utero
+  tempe mederi hi praeeunte arva omnium libant aetna semodio atqui hermu aestum
+  alia et ac aetas vomica aerario in erucae alnus tereti alia et
+  ac sequi sitque cuiusque emisit sornatio suillae utp atti alia alium [ml]
+  cui ac alluitur autem imum ac angue audire aridae aliis tice et
+  si et femi ego artis hi et isque quin serram serra ac
+  impe iam ac ponte alia et hisque upupae etiam antiate et hic
+  sit suum omnia annuo intubi est soli et serapi ac alia alcimae
+  ita et et ut in meique quae urinae et cocti ictu cui
+  et semis cuius totae rosae ac audire metu ac cuius in rei
+  ac in eius hirci merito ac quibus iam meis meum in media
+  impe ac aridae arvis alia impe cuique ac cui asello ubi in
+  arti [sh] satiatae hip apio et eius ac tusco aetas meum spei
+  ac cui erice direpta et tacere et sit erit in alia recen
+  tenui
+
+[f79v.1,@P0] (Voynich: 356 kelime -> Latince: 196 kelime)
+  rqa acri alia me bima illatis infe iubet suisque aetate etiam odore
+  infit quae pota modioli autem sive alia immoratur ac sine alto isque
+  ticae aetate et eorum aetas etiam acida ac set igni costae aetate
+  postea est quoque poti scio mulsae errat metu annaeum ita in alia
+  illita aethio tutela tot aetatis et etiam et tepe [td] in metu
+  nisi aceto pice et acacia seri ac initio implet me ambitiosae etiam
+  meque tepe infusa cuius totae tenui pictae equis et apium sic pretio
+  servilio hae in alia haut alia ora immota ac ita totae invia
+  et maiore autem et ciet ac ille meum pe hodie ac aetate
+  meum ac iam iactatu aut artem postea usque terrae motu in pestem
+  imum in meum tanto sit ita etiam mutuo et ut aetate etiam
+  pa ac alia re ac cui et asses viola arti alia alii
+  meum et sit ratio caeli esset illa tantae meos caeli erit sura
+  ac iam in me ac meis ac sartio ac sit et potui
+  [sh] aetatis aetate ipso aetatis alia alii et enim et et ac
+  ervi aetate ac satiatae ac tum vero alii alibi terve re ac
+  immo et si etsi
+
+[f80r.11,@P0] (Voynich: 433 kelime -> Latince: 225 kelime)
+  vi boeotiae et ac antiate miscet etiam et ac alia ante inque
+  erit ita totae ter earn apio omnia tentiam in scio quam metu
+  et sive aqua iterum id aetate ac erit et spem ipsa ervi
+  freto ervi ergo ac pota ervi tenuia artis tergo aetate et imum
+  tecta sim supra autumni et etiam aetate sciam meis occasio sit atque
+  misce iam meis aminnea omnia ticae toti side peius alnus ac sit
+  cum apri etiam istum ac etiam et cicero infe alia ac in
+  iam maiorque ipsa pilae nempe amplitude illini thali cum aliqui enim cuique
+  antiate inque pice sim apio ac pilae cui ithaca animum infit supra
+  iubet erit sic sata nilei pretio omnia aetas tuis tethea dari armi
+  armati ciet alia ipsa aetate ac tepe iam pota ac et ac
+  undique et ut pe ac set sicae set sim aetate infimum terve
+  ipsa illita ac id [sh] me infit ciet ac sim adipe imum
+  imam maesti terve et ac etiam meis utile istum autem etiam vim
+  erit ac sese vi alia cui et aethio aetate aethio et ac
+  adips aetas vitia ipsa tice totque erit ithaca et seri mumque innatare
+  apes utile ad tuta erit coepi taedio seri ter ambire aliter ac
+  tepe alni iocur desint apio ac ad ac in rqa maior pede
+  saepiae ac cui et ut in erit cuique torique
+
+[f80v.1,@P0] (Voynich: 376 kelime -> Latince: 210 kelime)
+  aestatem hieme apium sciat in mh quiete omnium intus aceto et ter
+  acaciae ciet europae totque me ac antiate statuae eius etiam et oriente
+  aetas habui innata set sebo bimae in ntice iam misce tenui aethio
+  tice dies tot iam etiam eius tepe ipsum reli erit si ter
+  tepe ac cui alia ac iocur [tl] haut sim alsium quem supra
+  qui ad aciem rimam in ac iniuria item in iam in aetate
+  imum et iter in erucae tepe alia utile arti ac re in
+  sit ac etiam aetate et infit cui et ita alte iactatu ac
+  urina alia sollertia salsi meum sit set tum imam ac erit in
+  illum cera item alia aethio idem aurique sequi [ls] tepe satione innata
+  sim quiete alia ac erit ac aetate et ciet upupae ac esse
+  arti alia potui et aetas pauci ac pe ac erit illita ad
+  peius acce alia upupae set pellit et nisi illa uvaque pota amico
+  aminnea pe et acaciae aetate ac aetas coetus ac sim villae acies
+  quiete fri apium opti infe infe aliud et erit [ml] ac sciet
+  intuli et ac ego coierunt ac eorum quae mali alia atqui apium
+  erit scio tertia ac et peius satureia aetna ne ac id immo
+  fresa usquam uvae [ntq] in utile
+
+[f81r.1,@P0] (Voynich: 210 kelime -> Latince: 115 kelime)
+  aetas istic iactetur mire etiam ac offae apio ac erit secta et
+  ac cui omnia et ac cerato ac cui cui ac alia immo
+  ad ac emisit ac etiamne metu est etiam meum cum ture in
+  maiorem calliope ipse annorum ac set ctesia macie regna ille alia immo
+  oleo excidi ac erit maesti tertia et aethio aetas et ac fusae
+  eius ac set laetius eorum est cera et nili amavi pretio opem
+  illum aciem erucae ac in ac fe ac cerati ipsa inpari quartanae
+  eorum caedi sicae maccio iter in statim causa sed erit pineae ebore
+  iter imum et siser ac omnium pi ac cui set adipe ac
+  taedis ac equis saepiae [ml] alia alii
+
+[f81v.1,@P0] (Voynich: 252 kelime -> Latince: 145 kelime)
+  artis terve inane ac est arva in aetate acce taedio ac tepe
+  ac cui alia [nm] id in pota arvorum vicit templi in ac
+  ita in ne in omnia ita in miscet aetate in aetate et
+  ac rore apio ac ad et item voci ac ipsa in tice
+  in scio mh aceti alia eius saepe in sine cuique aetate in
+  cuius averti etiam usque meis et aetate et toti apio aquaticae ac
+  res etiam argema meum enim aetate pretio intus in aetate aceto iter
+  ac serra alia recisa ac rei illinere austero ac seq tusco [nm]
+  libera ac iamque ac set et sciat ac set atqui iactatu aut
+  iniuriae vimque erit cannae mille tolli ille ripae came et cera neque
+  res et apes tecti alium iubet et cera idem octo caesim seri
+  et ac ariciae erit ac tenuis upupae et primae prope mumque atque
+  rei
+
+[f82r.1,@P0] (Voynich: 67 kelime -> Latince: 32 kelime)
+  set in re in secti aequitate et sciat tiva spatio ipso taedio
+  optet eorum et dies cardia ipsa et ervum fui pretio satiatae utp
+  res utique alia erit maior motu spei infit
+
+[f82r.11,@P0] (Voynich: 197 kelime -> Latince: 103 kelime)
+  tertia cremari urnam nos iuvat antiquae etiam fieri qui alia quiete erit
+  et utique et quiete et potui in ne re in itaque ter
+  alia alii ac ad et rei angue premere esset anni etiam eius
+  sine fetu et ac ad lilii et erat itaque in [td] pe
+  in ariciae erit initio rosae totque cassio iussere itaque in eruisse quic
+  itaque ursi dili et pota linea in ejus undique ac soli hi
+  tegi [ml] et metu testium vitae metu uestras etiam omnia arceri tice
+  in auroque itaque infimae imum melior meis tolli ter ac quam ter
+  mardi scio equis reli de ac rarior
+
+[f82v.5,@P0] (Voynich: 297 kelime -> Latince: 148 kelime)
+  turbae semine uellet illum in sese in argema ac et ac eorum
+  meum iam toti ciet eius merito et iter aurique quiete ipsius arcem
+  timet [ntq] iter est notae implet nisi stelio milia in sine ac
+  ticae erat omni tanti et sciat esca [tl] aquilae lauri ad immo
+  suam ipsa toto eorum infesta initio quaeri aliubi toto in alia immo
+  satiaret infimae supra ciet et erat et potui pituitae iter iugera maiore
+  in sive misera ad tepe et in eruisse toti tepe metu ciet
+  earum sita ac sive cuius qui cum po hae pretio quiete sim
+  et aetas ignem lati dies iter causae uti sit tempe quae piso
+  in erit sit pugnae morte iocur et sit ac alia et alia
+  immo ripae uterque taedio ac erit et nisi bibi postea aliunde itemque
+  amicitiae opem pavi erit etiam iam tot dies et aetate dari alia
+  quaeri pasci postea sit
+
+[f83r.1,@P0] (Voynich: 219 kelime -> Latince: 107 kelime)
+  antistio plus est audire tis sim alia urinae apium asperi in aurique
+  etiam nesque erit spei in seri ictum sive emisit infe macie mh
+  itaque iter et quiete illita et aceto meum plumae iter est tolli
+  ab alia [ls] arti pe utp et in vi ad et specie
+  dies et spatium et occasu aquae iucunde ipsa omissa ipse aetate et
+  meis ad anni idque et aetna iubet suisque nequitia etiam inedia dardae
+  aurium et menta queunt ebore tethea atqui imum salsae herbis dardae inde
+  defusa nisi si quem et taedio et taedio etiam odore pube tusco
+  edunt et fieri crema macie antem aetas ut maratho iurgia meis
+
+[f83r.25,@P1] (Voynich: 94 kelime -> Latince: 52 kelime)
+  itaque et ter iumenta et timaeus in erit atque atque id amplius
+  aetas cera nec ad aetate tanti et cera ubique taedio ad et
+  taedio fri quae biduo iamque esset aridae et suis illita adipe quoties
+  alia arandi aetas tusco quae fa quae paene ad ac omne ac
+  auroque in seri mediis
+
+[f83r.47,@Pb] (Voynich: 11 kelime -> Latince: 7 kelime)
+  intubi ordine erice side et edito vera
+
+[f83r.52,@Pb] (Voynich: 16 kelime -> Latince: 8 kelime)
+  ac eorum ac in ac in arida vi
+
+[f83v.1,@P0] (Voynich: 74 kelime -> Latince: 37 kelime)
+  amavi maesta maiore ustione set sacrae theo timore enim omnino apes arquatum
+  caseum in eius clema turbae acaciae et suum rufi in meis et
+  iter media se arida et sit et murmure in initio aetate toti
+  fabio
+
+[f83v.11,@P0] (Voynich: 182 kelime -> Latince: 88 kelime)
+  ple ardet et sit in atqui erit opus et acacia repeti rore
+  in scoria ac caucasiae quoque ac inferi toto res et urinae invia
+  potui in et ipsa ter et iter ad ac et invitas iussere
+  quiete ad pituitae editur tepe quae innatet tegi sive nisi vero cariem
+  ipsa agit aceti saepe ac seri totque iter utp aciem priscae sit
+  atque qui ac erit tice et si alia tenui sermo degi sit
+  set priores templi caesari aceto ac iugis rei mardi ture etiam recitare
+  amico causae etesiis aestivo
+
+[f84r.13,@P0] (Voynich: 286 kelime -> Latince: 170 kelime)
+  iter autem tesque meum alia eius scaenae et suam cui alia ac
+  et alia catenis et aetate erit erit enim ac cui aeris atque
+  tepe istas in idem meum aetate ac tertia cient illa aetas totque
+  scio quae mh nasci lati adipe metu set in et in atque
+  ita atheni aethio insita eorumque ita et erit earum et hiatu ac
+  satiatae ac set et ter lierum ne nos etiam tum quem causae
+  ac in ac alia artemi set tuis et scientia ebori et ostenta
+  omnes me meum ac etiam ambo imam in etiam mh tepe etiam
+  pone et arriae alia me praedia ac cui et ac et alia
+  alii inde spatiose aceto et inaequale sive mare cocti et ac scio
+  quod alia tergo aliis alia laesit in saepe et iter in meum
+  mane opem atqui supra mane alia cuius antem et seri et me
+  ac turbae ac ticae ac aliud ac sacri scio in ita in
+  ne maior atti atqui alia attali sanies in et solet et iter
+  urbe erice
+
+[f84r.37,@P1] (Voynich: 67 kelime -> Latince: 38 kelime)
+  maeotim satione ac angue ad alia quae ille boni iumenta apio prius
+  et eorum et tulli totque pe primae mumque edito ante aetas etiam
+  et aeantion et etiam omnia ac omnino alia lati ervi tangi iactatu
+  alia laetitia
+
+[f84v.1,@P1] (Voynich: 9 kelime -> Latince: 6 kelime)
+  mane urinae ambo inpo assidue armi
+
+[f84v.3,@P0] (Voynich: 321 kelime -> Latince: 183 kelime)
+  aetas meum crema metu argenteis in ac autem sit ac alia utile
+  et parvae et ac aetate et boeotiae et aetate et sit requieta
+  edito spei alveum set et ungere ac re in esca in ne
+  in autem sit in pane ardere etiam escam inopiae praeponi ac metu
+  aetate non ac radiosque ticae et in aethio ita ac ter ac
+  erucae meis et tenui et ac set et maiore in unus erit
+  alia iubet [tl] pretio aetatis tenui atque et ac [tl] ervi frietur
+  meis et aetas in aetatis meae tabe et alia et et prae
+  utp sumi et sit iubet uti in tolli tapetis viola et erit
+  pe quid ciet et ciet rore ac etesiaca meque et alia saepe
+  quae poenis aetas in ne desiit in tacite ac tacite iter in
+  maiore misce ciet sit terram sit et urinae et quiete ac aurique
+  ad ac alia recti ut quis ac aetas illi materia et ciet
+  edita et peius ac set alia scitis in et in toti iubet
+  et ac rumice allece et itaque quae ille atque alvi pe quiete
+  in potidaea maiore
+
+[f84v.42,@Pb] (Voynich: 4 kelime -> Latince: 3 kelime)
+  tomice scio prae
+
+[f84v.46,@Pb] (Voynich: 7 kelime -> Latince: 3 kelime)
+  bimae acaciae vero
+
+[f85r1.1,@P0] (Voynich: 335 kelime -> Latince: 180 kelime)
+  dh sunt pro idque siser vimine alia et bimae ausculta extimo est
+  earum ab umore digna in uellet monte utp intubi neapoli illibatae meis
+  statuariae ac sisti alii artes et antistio aetna in scientia iubent in
+  ne in dh ambo quam corde eius alia appiae amico media suf
+  ac ustione sed reli et ars quae paene arduum in inmensa vitia
+  etiam ac ad et ac mavis meis etsi sors mare ad alia
+  et romanae ac tiva ueritate ac [nm] [td] ac etsi inopia suam
+  aetate et res suis enim casti piente tenui hisque mh angue bibunt
+  angor fa tralu ac eticum maior eorum cum reli erit obrui mare
+  arte [ml] et rei in uirtute in erit erit intus et quem
+  aerumna tibiae alia est est arriae ne ad et ne alia in
+  eorum et taedio ac chemae bimi in alia urinae sine et ac
+  metu alia ad rabiem etiam interna lemnio terere iumenta dh nasturtii iniuriae
+  atti et maiores europae intenta offae alia alii aliis eadem meum alia
+  et macie apes eosque ut alia incepta europae textu ad alia fomenti
+
+[f85r2.2,@Pb] (Voynich: 19 kelime -> Latince: 12 kelime)
+  de alia alii et est meus obrui alium campi lauri in pe
+
+[f85r2.7,@Pb] (Voynich: 27 kelime -> Latince: 14 kelime)
+  ple potui errantia modo avium ac in iumenta monte scientiae in cretae
+  et ardui
+
+[f85r2.12,@Pb] (Voynich: 26 kelime -> Latince: 13 kelime)
+  ardere alia sumere cre et alsine re alia oeensium inane reli aetna
+  immo
+
+[f85r2.18,@Pb] (Voynich: 36 kelime -> Latince: 20 kelime)
+  ciet auresque nescio ter alia et alia immo quiete sors unctio sine
+  alia suisque de alia et ac quaeri ac
+
+[fRos.39,@Pb] (Voynich: 6 kelime -> Latince: 4 kelime)
+  igni alia meis idem
+
+[fRos.137,@Pb] (Voynich: 3 kelime -> Latince: 1 kelime)
+  ultimae
+
+[fRos.139,@Pb] (Voynich: 12 kelime -> Latince: 9 kelime)
+  iam appiae ac iubet etiam maria et ac iamque
+
+[fRos.142,@Pb] (Voynich: 13 kelime -> Latince: 6 kelime)
+  et in tibiae lati [j] obrui
+
+[f86v4.5,@P0] (Voynich: 48 kelime -> Latince: 28 kelime)
+  tenui ac ansa ac cui sit alia et impe de ac cui
+  sandi maius ad alia et ac tersui in ac etiam illita et
+  ita in nec ac
+
+[f86v6.1,@P0] (Voynich: 487 kelime -> Latince: 263 kelime)
+  [ml] et oppi re arti exire oriente bestiae ita erit qui apes
+  duriore alia abies edito eorum pro suis ac et pe dh meos
+  de ac pumice ripae in ego alia hiatu istum in eius etsi
+  alia re alia minutae alia ita et alia et ac alia apio
+  alia sit ad alia infe in itinere idque mox sed bene pretii
+  in situ earum alia iam pro et otiosum vice pineae et pota
+  alia invia metu alia alii etiam arte arriae arte stibi ueritate alia
+  potione ac immo sitque cera tota vero ac iterum tota et maiore
+  ornate et tertia alia et nam prima istic alia pansa me inquam
+  iovem enim pro eruptio pe martio alia um pretium sine ustione [sh]
+  in meum suum alia insaniae hiatu etiam offam in tepe merito est
+  notae alia amico immo ac rursum dein in testa hiera pineae antiate
+  came et penita alia etsi arretio ad servari bimae pineae dh sine
+  suum pube toto autem cibo nisi in et hieme in octo omnes
+  etiam ter in in dh ista arte aestum aceti pe optet ac
+  inepta et aetate alia eorum ac iubet insaniae pineae apte [nm] aetna
+  cui ac suisque iam alia sumere alia iam pro alia alia ac
+  de et matre metu ac mutatio ac amico in iterum vitae populi
+  uellet meum potui ac ticum tice upupae et ut enim aetate opinio
+  alium in alia mihi metum etiam edito ac tepe tiva meis iam
+  mare apium etiam aminnea ac per metu etiam idem meis et fieri
+  iam tuis etiam sita alia me pretio artemi isque alia ego
+
+[f86v5.1,@P0] (Voynich: 390 kelime -> Latince: 231 kelime)
+  amisum fe martio arte et alium et artium erat satis istum ac
+  multa altius erit esse [td] meum tempe imum annonae pansa in alia
+  mihi iam apamea in alia chio opem imum maesti arti maiusque est
+  dh iuvatque horti sim alia me et eorum alia ac iter et
+  maeotim alia tepe aetas eius iter alia ita alte alto extat video
+  etiam rimam prae ac alia si inquam fe atti in saltu imum
+  umore vi alia et meum prima prae ac ne alia et iusseram
+  et vitae alia alii et aetate et alia ac aut in et
+  ac utendi fa et maeotim sim impia ante apud ac enim me
+  in etsi eritque [ntq] imum me pteri alia et rqa metu meum
+  et alia et timeam et meum potui et tunc et admotae ita
+  alia et etiam sues ter alia et ne et aetate sciam apium
+  idque et alia intra usum eius maesta et pruinae angue sisti ista
+  et meis meum nilei insania et ac et alia alii esse orci
+  in meum extimo fama erit si metu intenta memini arinca sim uobis
+  mutua inter meum in europae alia praeeunte in meis alia et exire
+  ac mare et et ac ita ac tepe istum in ultimae ac
+  maxi seri multa et rei alia et inquam bra ubi ad suum
+  mox ripa pinna tangi iectura meum ac triduo nuntio et sim maiore
+  eorum viii in
+
+[f86v3.1,@Pb] (Voynich: 58 kelime -> Latince: 33 kelime)
+  antiate stilo tulere exce inque tramite imum imum alia alii insita et
+  arce alia et alia anser maiore ostium multae et omnia tota sed
+  alia et idem enim culta id et iam inque
+
+[f86v3.9,@Pb] (Voynich: 65 kelime -> Latince: 35 kelime)
+  aiunt potui pri et stoebe alia tres suum in rei [sh] antiate
+  satietate oeensium clarae se sola utp intra semet axis venti admi arti
+  aiunt altius et inopia fui et re alia et ebrius ubi
+
+[f86v3.15,@P0] (Voynich: 56 kelime -> Latince: 26 kelime)
+  id alia isque si facie boni alia inedia plu octob ista ictum
+  ornare abire aeantion binae eximia iter scopuli priusque ante sunt maiusque alto
+  aeantion cui
+
+[f86v3.23,@Pb] (Voynich: 51 kelime -> Latince: 26 kelime)
+  aestas est iustum pretio sit eorum eum tenui et oriente ut in
+  earum iam in ansas meum ardui simum admi et ut momenti cleo
+  gem aminnea
+
+[f86v3.29,@Pb] (Voynich: 46 kelime -> Latince: 23 kelime)
+  iubebo sentiam sed alia re in inter intenta etiam prae arcere metri
+  intima magiae alia ansa in erit metu insecta clementia essem inesse
+
+[f87r.1,@P0] (Voynich: 102 kelime -> Latince: 40 kelime)
+  istud id argenti metu suf ad ne in vero ad ac una
+  rumpi impe id et remotis austri iamque dari idem recti suis feminae
+  ejus cient tuendo suum ad ex in ne sive utero etsi res
+  aliunde id aetna arcere
+
+[f87v.1,@P0] (Voynich: 76 kelime -> Latince: 28 kelime)
+  in suum admi mh uvae ad ova et utitur etsi sive sale
+  suum vis maesti alia ubi ac auget agro aridae in usque ansa
+  immoti amico aetna squalida
+
+[f88r.7,@P0] (Voynich: 47 kelime -> Latince: 25 kelime)
+  vinde sine omnia alia togae ervi aut in de ad et ita
+  alia ansa alto ego arsinoe alia ansa tritae aridae iis laurea alia
+  tuis
+
+[f88r.18,@P0] (Voynich: 39 kelime -> Latince: 20 kelime)
+  sine infantia cocti meis in iuncta iuncta inditur pretio ad rei ad
+  et eorum et merito ac imperat oriri ac
+
+[f88r.26,@P0] (Voynich: 47 kelime -> Latince: 23 kelime)
+  pavita erit et aerario alia et aetna ter iureiurando ad alia impe
+  alia utpote erit rex tibi urina iussere erit apponi gerania unctio
+
+[f88v.6,@P0] (Voynich: 38 kelime -> Latince: 19 kelime)
+  [sh] ore [td] prius arsisse qui spatio in tria iuncturae scit ex
+  et ad et ex infe idque namque
+
+[f88v.15,@P0] (Voynich: 91 kelime -> Latince: 54 kelime)
+  europae aetna merulae impe me fors ita offa atrae arsinoe tersui rumore
+  indita restria ossa adsum ego etruria pineae impe ac tice tritae femur
+  in trem xiii cl ab angor in sua arce quae esse alia
+  immo maeotis in offae et meis in sese in uersum ciet eius
+  sive in sale idem si rosa
+
+[f89r1.6,@P0] (Voynich: 45 kelime -> Latince: 23 kelime)
+  sine sit aetna vi [ds] iniuriae ursae incon et urina eretria igni
+  in anguis in et in indita mh [td] tritae iniuria in
+
+[f89r1.15,@P0] (Voynich: 78 kelime -> Latince: 41 kelime)
+  ntes sine adueniens sit ac in aeris alia et in demisso in
+  ne angue ac neutri ac [ls] impe ad acce anguium vetti atrae
+  aetna enim ingenia iubebo ac et invia alia sandi imum femi urina
+  in tres fe in iunco
+
+[f89r2.6,@P0] (Voynich: 44 kelime -> Latince: 21 kelime)
+  suf amicitiae gig nisi nandi agro et suf in rufi in exoriri
+  ulce granum in ne tenui aridae in taetri [td]
+
+[f89r2.12,@P0] (Voynich: 62 kelime -> Latince: 36 kelime)
+  me aetna meis sitne inter iniuriae exce alia in potui tussi ac
+  eorumque rei in aerario quinariae ac urina rei ad me prisci et
+  aetate et aetate nigi etsi inde edisse in inde ad inde ad
+
+[f89r2.22,@P0] (Voynich: 106 kelime -> Latince: 63 kelime)
+  sese isto aestus metu erice in [td] et et in enim aceto
+  et in arsisse aderat iugumque erit iter [td] aetate in ter taedio
+  in nisi ad et erit versari eruisse cogi mh dein rore aetate
+  in tiva in ne aut rostra ursi rore tegi ad et earum
+  cera in et alia immo alia immo ac in ac spei in
+  etiam cum ca
+
+[f89v2.7,@P0] (Voynich: 60 kelime -> Latince: 38 kelime)
+  eius ad et austrum id in oppi ac et prae angue in
+  tegi ad et indum et in ita ac urinae erit in rei
+  agris loca in exoriri eximie ac alia erucae ego qui ac alia
+  iugo in
+
+[f89v2.15,@P0] (Voynich: 104 kelime -> Latince: 51 kelime)
+  adunci admi et ne ad dorsa natione niense et gessere idque iungere
+  oppi angue angue et rivi in grauari ne et etiamne europae maeotis
+  amico in etiam sine maceria tuis in in et me fiet minuendo
+  tersui in iners semet in ne earn ad supra rivi amico atti
+  eximia cogi in
+
+[f89v1.5,@P0] (Voynich: 145 kelime -> Latince: 81 kelime)
+  et apri arriae in arti aetna nisi uti rendi in meum vitia
+  in rivi in impe ad ac rei [td] meis in vitemque ad
+  et ac meis ego vitia in iamque ego alto ad immo ac
+  obrutae immo iamque in notae nervi alia intra sine ursae trem vitae
+  tenui [ntq] taxi austrina re in vi in movet motu erit abunde
+  armati nunc taedio sit aetatis et iniuria angue id utp meis ad
+  in induunt tegi taedio arabia idque in et alcaeo
+
+[f90r1.1,@P0] (Voynich: 68 kelime -> Latince: 27 kelime)
+  et ulcus iam sunt etiam ac ad tunc uberrimae indis ac alia
+  obiectum inter admoneo gravi ab fruit emersit senatui et tenui ticae ad
+  me sintque earn
+
+[f90r2.1,@P0] (Voynich: 42 kelime -> Latince: 21 kelime)
+  impe mire id deinde ad regressi rei ac ad alia ac ad
+  immo iugulo lauri inde excuti in et ostrea in
+
+[f90v2.1,@P0] (Voynich: 61 kelime -> Latince: 26 kelime)
+  et probro erit ad de immo dies ac iugum id iussere aegris
+  inedia suis et taetra nexu et si ad suum fimi unciae ubi
+  arce in
+
+[f90v1.1,@P0] (Voynich: 75 kelime -> Latince: 34 kelime)
+  istinc alia [td] hine et in suum induere alia eorum si adsit
+  iactatu assuevi salis ac item fu in esse ego mh oris ac
+  assidue et ossis alia sale meum prae etsi eius in
+
+[f93r.1,@P0] (Voynich: 148 kelime -> Latince: 69 kelime)
+  admi ad de rumpi ad prin angue exin dies me media ac
+  exit prin timeam ad rei ad aeris sine suf ad conc ad
+  nigriora iter autem ad angue impe ac edito sibi obrui intubi alia
+  oriri obrui initio ac bris mentis alia [ds] venis in etiam bovi
+  in tuis metu fimo idem ad idem deus meus fide et augeri
+  nunc ad in vi obrui bovi ac rivi nimis
+
+[f93v.1,@P0] (Voynich: 71 kelime -> Latince: 26 kelime)
+  alia obrui clarae piente exinde tuis fit dies bene intendi orci indita
+  favi spei [tl] ictu eximia sabaei tangi suf eosque ex bovi arandi
+  ad ego
+
+[f94r.1,@P0] (Voynich: 77 kelime -> Latince: 43 kelime)
+  ante fui prae plu rqa neutri tenui tucci iter fame et cadmiae
+  et sit europae occasio pe ac ebore fui alia erit ansa in
+  iamque potui manet chio dimus interque urinae in scio aspi appa ple
+  lauri alia utp pansa metitur anguem re
+
+[f94v.1,@P0] (Voynich: 87 kelime -> Latince: 46 kelime)
+  hae fieri iubet ac meum mixtae eius sed metu alto ictum aiunt
+  tabe cre arabiae intuens invia apium aestum inter poma sit plu in
+  sine intorto alia metu et squama ac ad et cui ac atteri
+  bis in moenia admotae argutiae alia ita in omnia arescit
+
+[f95r1.1,@P0] (Voynich: 102 kelime -> Latince: 57 kelime)
+  oppi ac aetna [ls] taminiae ac reor et sit erit earum tinctae
+  unumquemque asperi erit per iter iter tice mare admota alia etiamne ante
+  illita appiae in euboea ervi eumque si dies edita ripa sed et
+  iter quaerunt inter merito [tl] apium alia in sciat scio in tertia
+  chio utpote alia eorumque ac aneto apio aetna iamque
+
+[f95r2.1,@P0] (Voynich: 79 kelime -> Latince: 47 kelime)
+  usque alia araneis etsi amavi in suum asperi sciam mum terna admira
+  sciat spei ac iam appiae et ambo in simum alia tusco tenui
+  et aristo chio et apio ac sim reor et aetate amavi primae
+  tenui alia et alto et erit res euboeam et aetatis adipe
+
+[f95v2.1,@P0] (Voynich: 55 kelime -> Latince: 27 kelime)
+  suum oppi arriae macris utp desint acaciae eximia et et alia et
+  sciat me in apes in ad murrae et tepe alia in armi
+  acaciae et enim
+
+[f95v1.1,@P0] (Voynich: 116 kelime -> Latince: 57 kelime)
+  usque et alia isque hisque etiam iam etiam antiate insita et arietum
+  fuerim in ac antiate maiorque isque hae chium earum sine risque ictus
+  ante ac ardea pretio et per meam arabiae exta nisi prieneo tabe
+  hieme ac aetas latitude exeat fe femi in suisque alia et ervum
+  et ad et neptem tuam in initio europae omnia
+
+[f96r.1,@P0] (Voynich: 78 kelime -> Latince: 39 kelime)
+  imago sine sono incom urceis mersa metu vir pigra ursae incom alia
+  rei estque ad alia ulce in iunco vim set et iucunde aerario
+  video intra alia inde spei alia adsuetis iussere in admi impe matre
+  bruma sectari suf
+
+[f96v.1,@P0] (Voynich: 51 kelime -> Latince: 17 kelime)
+  inedia arce moque et id in sive alia cleo quid arando viola
+  rendi dedi sive in ore
+
+[f99r.15,@P0] (Voynich: 39 kelime -> Latince: 21 kelime)
+  mare in sine hine et aprica dies ad suis inducto ac indita
+  inde lauri esse addito oritur exinde in ne inde
+
+[f99r.28,@P0] (Voynich: 35 kelime -> Latince: 18 kelime)
+  statui ineunte [ls] aetas proinde indita vitae indita item tritae [tl] [tl]
+  [tl] tibi effeta meis in metu
+
+[f99r.41,@P0] (Voynich: 41 kelime -> Latince: 18 kelime)
+  sine ostendi austeri ulce desisse rivi in ne sive necis arsisse ad
+  et utpote spirandi indita atti ex
+
+[f99r.47,@P0] (Voynich: 43 kelime -> Latince: 25 kelime)
+  metu vitae utendi aeris fuisse alia lassata etsi tu in et ad
+  et etsi aetate etsi de alia ac sive in ne utitur utp
+  alia
+
+[f99v.10,@P0] (Voynich: 29 kelime -> Latince: 11 kelime)
+  audiendum in austrum dabit in esset adsum in iniuria et ita
+
+[f99v.21,@P0] (Voynich: 37 kelime -> Latince: 17 kelime)
+  metu uirtutes utp eum premi et esse ad et aetate vitae in
+  tuta erit qui aetate tice
+
+[f99v.32,@P0] (Voynich: 34 kelime -> Latince: 22 kelime)
+  metu meis etsi in iussere faeni esset ita utendi [tl] [tl] ac
+  cui condi tolli ossa alia et ac iussere ex austro
+
+[f99v.37,@P0] (Voynich: 35 kelime -> Latince: 17 kelime)
+  tepe ac erit et tenui subinde alia et arsit in indis metu
+  ac saepe uti alia iter
+
+[f100r.12,@P0] (Voynich: 33 kelime -> Latince: 14 kelime)
+  est ebrius ad prave etiam in si spumae arsit dolium ictus iussere
+  aurium et
+
+[f100r.22,@P0] (Voynich: 56 kelime -> Latince: 22 kelime)
+  res nisi inpari sine suis induere aeris et asino aetas reli serio
+  in uvaque mque ore tamque rei aegreque tussi ac rarior
+
+[f100v.14,@P0] (Voynich: 78 kelime -> Latince: 44 kelime)
+  mare alia eorum in audire amico ac aerario erit medio ad asserere
+  ad [j] et [ml] totae in adsueti iter media ad ac gig
+  et aves uncia taedio ad adsit fors scio [td] item ser ac
+  adsueti ac exacuit [td] alia in iamque addi
+
+[f101r.1,@P0] (Voynich: 225 kelime -> Latince: 134 kelime)
+  aestus ac sandi si magiae ad et sive ab eorumque in urina
+  meis spei vitia et et alia alii ac ita ac quieta ratio
+  aetatis meae alia eam priore in et alia sit sine sit vibio
+  ac meo fui alia ac semis ad impe aiunt ac niense invia
+  alia impe in impetu vinde in seri iussit aetate in viret alia
+  et aerario aetate in aerario alia et me alia et ac aeris
+  et egressi sesima suis etsi impe iunco arce ad reli exce in
+  imum istis etsi eam fas inde abire in cum rem estque ita
+  in [ntq] oriri et in ac ad ac ne in alia lati
+  in si in iter in tabe tione ac tione et sura ad
+  erit sine inpo emisit in et nube iugis aeris non effeta renuit
+  ac sua
+
+[f101v.19,@P0] (Voynich: 192 kelime -> Latince: 100 kelime)
+  alia nisi in alia [j] oppi ad hiante abire alia addi alia
+  et alia et alia iungere ad et toga impetu maiore alia xiv
+  strenue ore in [td] levi in suf ocissime alia ac et in
+  quaestio vivum fine in ac cui in aetate et in inde in
+  et nili aetna infe etsi ad onerat ulce unus utique alia misera
+  vero esse ratio varia in maciem arandi in induere iubet ac tribue
+  in quic tegit [ml] sors russeo rivi olivae et sine aeris utile
+  dari ulce tunicae atque eruisse invia ac luisse inponi erit in mare
+  integi alia rivi ulceri
+
+[f102r1.3,@P0] (Voynich: 28 kelime -> Latince: 10 kelime)
+  mercium etiam sump caeli ratio ita in ne esse ac
+
+[f102r1.8,@P0] (Voynich: 30 kelime -> Latince: 10 kelime)
+  in meum in usque duriore eruisse inani vinde dies ursae
+
+[f102r1.13,@P0] (Voynich: 40 kelime -> Latince: 19 kelime)
+  quotiesque et iussisse sim tigri ad alia alii rei in sors in
+  edita in utile non inpo [ds] cui
+
+[f102r2.2,@P0] (Voynich: 38 kelime -> Latince: 21 kelime)
+  erit pro arte et ut erice illita cui in aetna tuis fidem
+  impe alia eorum ramis in ostrea arsit nasci ad
+
+[f102r2.8,@P0] (Voynich: 49 kelime -> Latince: 24 kelime)
+  [tl] certis nempe sine ursi autem fundi sandi denarii vitia et aetate
+  in ac me fiet una ac aiunt et ac indita triduo nandi
+
+[f102r2.16,@P0] (Voynich: 48 kelime -> Latince: 27 kelime)
+  versatio antiate etsi indita in spem sim sandi nisi in situ in
+  toti iussisse ac et agendi ut enim et exit asses latro etsi
+  in et qui
+
+[f102v2.17,@P0] (Voynich: 75 kelime -> Latince: 41 kelime)
+  sero fresa late aetas et exce et sale et ac et alia
+  et ac immatura iussisse ursae adsueti in ac reperio ad nosse aridae
+  iusserat dirce in alia et re ad intrare sandi ac iussu alia
+  arsit erit ita sit alia
+
+[f102v2.30,@P0] (Voynich: 93 kelime -> Latince: 55 kelime)
+  iunctum sorte aetna inde exce etsi iamque nera si metu sim ad
+  alia toga ac in edito serio et ad ac agrum prae et
+  et achaia ossa bovi et audire sorte impe ervi tegi merito in
+  iussere taedio toto et tanto alia erit alia vi excuti dein rendi
+  toti agris et etsi olera ampli oleo
+
+[f102v1.7,@P0] (Voynich: 72 kelime -> Latince: 41 kelime)
+  inde istis ursae ac rivi taedio et ratio amisum rendi terve indo
+  alia iugo infamia ne ac in addis tota sit in dari et
+  aerario in atrae in et rore ad alia raro pa ac in
+  re in ter oriri uiuendum
+
+[f102v1.19,@P0] (Voynich: 44 kelime -> Latince: 24 kelime)
+  amico alia eius esse apio inpositae excursum fetu iungere ursae ostreis fui
+  atrae ambo metu incuria mare ubi sit eum fundi equino deinde re
+
+[f103r.1,@P0] (Voynich: 531 kelime -> Latince: 266 kelime)
+  plius mille iam meis dh in etiam vi in arva est alia
+  aiunt adipe ad immaturae dh ante sera scio alia lati exci meatu
+  maior erit et tota sed ac urbes metopae intus armis meam ter
+  in arva toto se etiam meum mensae dari uellet metu ac satureia
+  utile ignem ictu innocua alia egit saepius pomi sim ac in ne
+  ac iter earn argis meis media ammineo meum et reli seri pituitae
+  sitque metu aetas et meos metu et sive iter est hine terve
+  erit sic ad et rei iunctae omnia etiam et sim fri pri
+  dh reli testa mento fraude satiatae et scitum alia et aetate aethio
+  aetate et aeris iter autem pe chaerea atque ita sit sic amat
+  et testa armati ciet dh aetas me omni alia maesti in ipsaque
+  scias issos item aestimet imum in meatu ne sit scire et fuisse
+  etiam ac metu intus signa et aetas tepe antiate tormi esset erit
+  mammae ac europae [ntq] erit aerario ipso aetatis est inpari iter totque
+  ita dh tuis pretioso et etiam tam late totque ulce ita et
+  semis seri cera et sardae aetate astruere aetate et suum et aestate
+  isque tabe et etiam scias vis et aetate illam suam tempe atque
+  eius et meum altera impe mimus etsi ad sit tenui huius magiae
+  ac sim impetu sintque aetate sump haut aetas ardere meum pinnae et
+  erit aut reddi satiatae ac etsi ac qui arma quae illata et
+  abieti immo ac cui aetas aetas tunsa ac secari erit et ter
+  media argis soli plumae aceto item stipe aetatis et erat itaque prae
+  arcet iam
+
+[f103v.1,@P0] (Voynich: 454 kelime -> Latince: 241 kelime)
+  arti initio in aetate in sine in sit eius etiam si misce
+  meatu alia ratione omnia aurium set aetate et erit et ac metu
+  stipe iamque usque tigna aestum tice in satureia excellit satureia earn in
+  seri eorum [sh] tus sit ac dies uellem aceto estis et aetas
+  ostentum ac pe alia erit macie et simo aetate tardi die imposita
+  et ac cui sisti est artis in aere illum ille haut immo
+  illa urceis sit satis eum etiam et altius quae quare alia equum
+  meum in caseum ac tuetur meum positae ac eorum est imp ac
+  scio quare cum tice in ripae ego ac arteriae metu arcet meis
+  et sit cum iam multo illa isque aetas taetri ac alia re
+  alia eum premi amurcae alia alii etiam itaque utile et meum alia
+  et taedio [sh] meum iam morti ambo metu melle arcula aetate quercu
+  meum in sive totque iter morte et ut eruptio somni dili et
+  testa ista arriae meque late ac erit et ter in scio adesse
+  aurium meis seri saepe et toti trium istic in eius ac ratio
+  sit sive melle quae causa et tulli ipsius primae uterque dies et
+  suillo illita ac sesima ac offae ac rarior tuis tice et me
+  quem impe si ac toto atque quale in si ac suillo ac
+  meis aequalis reli lulio sciat atqui stipe requies alia alii utile scio
+  senno lati ac auroque pe atque ipsa alia immo maciem sit scire
+  id
+
+[f104r.1,@P0] (Voynich: 448 kelime -> Latince: 230 kelime)
+  rore aestus inest ardui studeo et alia et clausae fe ad et
+  rei inque ad et omne rufa et vitae maior parce clema toti
+  et ac set fine enim eius ac sura ac cui ustione et
+  ut pe invia in indita monte eminent in ser notae alia et
+  ille potui fiet notae item ignota invia anguium fida ac atti siccae
+  obruere tepent ostrea caedi ac vim ista altaque enim sub pota tramite
+  angore in xii ignem idem ac adunci exitio totius fasti meis iam
+  meis iam materiae et tenui tice alia adser pus eodem dh meo
+  opto [td] chium vibio iter latro alia immo alia pretio ego apte
+  ardua bimae seri austero sciam angue ac regni tice pueri imitante intrare
+  tice in eorum igni [sh] perisse earn ad occa ascanio scio ac
+  oleum alia sese item fu pluteum [nm] aliis in ne alia fe
+  alia aliis alia re invia ac ad alia alii et altius meum
+  alia atti etsi ac etsi in etsi ursae arti etsi et euboeam
+  et favi isque erit bra posui fit obiter [sh] pueri est iter
+  etiam tritum si mare funeri aerario maiorque tota aestate si fuit alia
+  autem erit toti infe iubent alia et optime rei et est inque
+  apio ac cumn maeotim alno apium tenui et illita iubebo aestate metu
+  orci ac inierit alia arietum earn in ac ad et me alia
+  erit imum
+
+[f104v.1,@P0] (Voynich: 474 kelime -> Latince: 256 kelime)
+  stelio est ac intra cuius fui amplae angue fulva adsum in earn
+  exta inque ambo obruere minui utendi erit inque ac [nm] me fimi
+  eius miror cera exce tecta sed ad atti fusi subitae ac res
+  iter est et regio immo et rore aridae utp atti etiam id
+  inter iuncta cogi metitur ac femur minui seri etiam meum creat sale
+  invia quaeri amplum toti in mari arce meum fa ac re arte
+  anne retro etiam fugae apio et etsi ad et iamque et faber
+  intenta ambo octo indis dedi et arabiae optet res lenta meis alia
+  immerito apium istorum sabaei serra utp et iamque alia [j] quiete oriente
+  antiate reddi sed altius sit tunc intubi intubi utp et simo aurium
+  intubi urinae nunc escam aciem ac iter auget vagi amavi [ds] fimo
+  utile proque urbi alia omnia in re idque ac et aeris eius
+  nunc suis sese abies dies alia et ut ac illa quae ubi
+  in exin atrae obrutae citent ac re ac erit tres exce inque
+  alia euboea alia alii angue et virium fe occari postea ab alia
+  immo quoque id alia utp ansa arceat et iter alia ac alia
+  ne fame alia attali geumai etiam eius iter quis eam imum fetu
+  insidiae uentrem prae teucria regni de [nm] atti si istud immo ignarae
+  materia alia et iugo alia et furnis ter opus erit alia alii
+  et esse iubet et ne infit ante ac etiam aliorum euntem qui
+  eorum sine mare eruisse inde pe et esset ob admotae in et
+  invia eruisse esset et
+
+[f105r.1,@P0] (Voynich: 365 kelime -> Latince: 195 kelime)
+  notae arti et re et reli aeantion [ml] alia urinae trinae illini
+  invia alia iumenta metu et lati paene etiam russeo multae in macie
+  suf alia intima arte ustione mare et merito alia iam prius et
+  vitia aceto dies alia atti iter et etiam quae tibi idque alto
+  in iubent inter orci utile iter urinae urbes maiore eorum exce metu
+  atti atqui trem tempe pe ac alia et et posse arce bra
+  in oleum ore et in intrita leonnato sit intra euboea in etiam
+  facie in ac russeo eius idem meum aurem dari cum tenui intra
+  ac ad et eorum accepi ne ac cui alveo angue iugo pota
+  urbi idem sumere tertio et alia et pansa utp est est immo
+  india esse arti alia iam pro impe ustione in angore eius atti
+  serra iustitiae sed ne etiam cerae ac alia cui offis in istum
+  tenui intra igne pandi alia et rei acce maesta inest ultione et
+  me inque atrae alia tepe aperit alia pe in opti inest maciem
+  alia me poematia alia me pretio alia namque tenui alno ac cui
+  alia est est accen etiam ac toti crema ac re crema ultimam
+  fui inque rqa
+
+[f105v.1,@P0] (Voynich: 399 kelime -> Latince: 207 kelime)
+  et pla ple idque esse in alia spumae alia intima proripio acce
+  minui [tl] et plumam [sh] aetas dici ac esse fui plastae in
+  re in plu pandae ne et ac ne alia mum erit invia
+  apio inque ac apio urbe alia est est attin quae et in
+  acci intendi aiunt in alia alii ac ornate togam pruina tucci ac
+  occari ad ne atti ac linguam prae ac taedio et me intra
+  artes et turbae alia alii amomum inque insidiae est bimae ac acce
+  plu escam pruinae erit etiam iam ac nisi adest in alia alii
+  in urinae sura acce et asino et tunc me et rei ac
+  alia [nm] pasti fit per et invia metae ac iubens fe inque
+  et cogi est etsi sit in iuncta arti alia in suf fui
+  atti tirone alno offam prope quiete meum in inde post arriae morte
+  [nm] meum iam alia et fui populi immo in metu alia ac
+  animum intra sisti in auctore etiam inque inquieta ita et ad et
+  dein et meum in alia tertia inquam et ac mutatio alia intra
+  ac ne [j] in essem coitum fui apio ac mentiri et iuniorem
+  ac cum etiam inquis id in side sandi impe potentia impetu alia
+  atrae immo isque
+
+[f106r.1,@P0] (Voynich: 432 kelime -> Latince: 210 kelime)
+  me serviunt macrae cleo ante offae ebori et ferae eorum quae aptae
+  ante alia sale euboea [sh] alia est ampli querna suo et erit
+  sive alia iussu [sh] suis inque alia etsi aliquae et iter urnas
+  utile ac aetas meum alveum amico oriri utique auget et utique autem
+  de et re et [td] limosae et totoque pots acta est omissa
+  impe et intel et erit quinque mare itaque sunt modo est et
+  immota et lauri in fiet mollienda urbe alia pretium et istum erunt
+  et aetate anni quae et mire et sit aeris fieri tepe bigae
+  potione et stilo rufa est eorum acie ac tibiae menelai baripe femi
+  invia cuique aetas et impetu offae achaiae invia potui pilo res erit
+  ac aquilae et aurium sigeo alia ac dari surae tormi aetate alia
+  iter invia puerile impe ac et sed intra impe ac eius spolia
+  reli semita tusco ac eorum sum fixit alia acce intra armi alia
+  extat maius per quae enim et armis meis istis et clema aestuque
+  nitro ego ac et utrimque arabiae et si alia et saepius eius
+  iter autem causa res etiam meis cera fusae in metu utero ac
+  mumque primae mari et iam inque et aetate metu ac aetate brumae
+  aetate et ter citreo aetate erit
+
+[f106v.1,@P0] (Voynich: 444 kelime -> Latince: 219 kelime)
+  inquieta et ciet in ac et supra earum et mardi impe ardui
+  atque de ac aurique meum ac eorum viii et omnia aetas edito
+  plastae iam et iovem caelo in suum bimae fe apio fre exit
+  inpo in aeris et [ntq] iam incon nilei iugulo et iam et
+  est ista impensam ferum in mare cl usque antem suum statui reuincat
+  meis exit multa excoli [ml] ac meique tuis mh lauri eorum pro
+  serra habeo habeo accessu et media sementi meis incuria altitu nunc usque
+  isque est alia dh rqa maciem maiore alia immo aciem duntque sit
+  [j] iugo pago editis iubebo tisque aetas salsi ac armis erit rariorem
+  alia et aetate iubet sed side atti [nm] dies rosaria chio emittatur
+  quisque alia ustione sim tepe autem idem mare materia qui eorum sale
+  meum media et mine etiam et suum agri ervi terra idque ac
+  est exin maiore ac et rei ac titium alia enim meis iam
+  tibiae ac abies ebore indita ac dies tegi intra ac in sacrae
+  arti errat antiate tice calami iter autem etiam fine [ml] et amico
+  atti est iustum erat metu etiam me media arterias morbi minore erit
+  per aetate et sit ac cui aerumna vir iter etsi iam fame
+  imum idque aetas fuerint meum de metu [td] russeo spei ac utile
+  atrae agro fri
+
+[f107r.1,@P0] (Voynich: 487 kelime -> Latince: 243 kelime)
+  esse bimam meum ictu et silvae alia et opem erice quae sola
+  esse eorum et utilia cleo fimeta mammae orbe ab optime arce iubet
+  cessare estque et alia iubet aminnea fabio mains metu scatent impe arceat
+  et pituitae ac aetas antiate ter iter autem et utique tice imperio
+  idque iacens invia ego etiam et esse ac lati aetate et oriri
+  et ervi testis admi sextio villae alia supra extera autem oriri induere
+  iuxta ervi esse alia atti pe maiorque est sicca adquirere sim appa
+  appius ac aliis ac et ulce in asses facie intubi iuxta ciet
+  item sit pots apio et usque in rqa illita alia iam pro
+  acce incisa incerta re accepi etsi accen ager ita erit exibat oriens
+  ac oris requieta inque taetri arriae arriae arriae spoliata et sura ulce
+  et oriente potui alia sicca chio tertio ita in seri tuis alno
+  ac iter alia et aeris ita utendi et amavi iamque igitur caspiae
+  potui ac lupi mine etiam me in [sh] quiete apiarium ac cui
+  neque rei ac inibi uulnere upupae scire ac palea arriae meum est
+  ubicunque rore invia ac ripae ac oriri iter et tepe inquieta toti
+  alia indita multa et eam iubet eam alia etsi in me fabae
+  mimiambos fetu metu iter indita et affert etiam odore initio ac ore
+  et imum etiam potui re caspiae apium alia meum apium mains et
+  caspiae accepi occari ac apiarium et maesti arti media immo rei ac
+  rimam ac antiate
+
+[f107v.1,@P0] (Voynich: 462 kelime -> Latince: 231 kelime)
+  [sh] pari pe accepi erexi maiore in ac in spatio maiore et
+  me pe ac de immo iam prata situ et ac ripam in
+  iamque ignotum apium meis idem cristae aestum uirtute petam et apium et
+  armum erit acce aetate testa aminnea desiit et aetate et potui apameam
+  obrui sicca et meus meis hiatu sabaei spatium imum itaque ratio peius
+  armenia media et altera tucci iam etiam uti in sit et toti
+  tritae iubet et potui spumae omnia tosti tertia mersa pide alia etsi
+  scitote uulnere iter tibi iter alium opinio iocur et spatio alia atti
+  taetri istum ac iter iubet immitti toti maiorque nec copia aeris de
+  alia aristo meum apio in iocur upupae totae ac europae istum ac
+  tosti alios tetra timet alia alii ac canitie busque textis iter earn
+  et raroque tetra tabe innata ac etiam ripa [sh] iter tauri per
+  arsit metu etiam ante etiam earn laurea non et utile et tice
+  eruptio aequalis upupae omnia apes iter tice maria quo sit pota alia
+  paene et iter potui laetitia iuxta in bibit potui meum potuere palustri
+  initio et meis tice et alia uti etsi ac rabiem ac pota
+  pe alia immota uirtute scapi stelio et ut ac atti aetate tigna
+  in sapae et ac inpo et erice ac erit meum et erit
+  ita totae in et tenui metu et uxori etiam maiores linctu erit
+  et re in
+
+[f108r.1,@P0] (Voynich: 494 kelime -> Latince: 258 kelime)
+  arte enim etiam eius aetas imum magni arriae notae arcet morbi esca
+  fui fruor cleo fiunt seri metu et augusti meum ac erit et
+  etiam iam bis die et ut iubet ebori et ter ter aspis
+  ac urbi estque iterato tiva fieri tepe etiam et alia atti uiuendum
+  fre memet itemque in alia et et cleo uti etsi in rqa
+  cui habui in erit ita totae utile alia nisi aetas testa appius
+  utile aerario ter abunde in intret pasci in in ne arbore et
+  aceto erice apparet apio in obiter tepe armi ac et iactatu ciet
+  et iter limosae prenso in erit tolli [ntq] etiam istum ictus in
+  etiam ac sit erice et iter aetate opem urbem et sed ac
+  re et ut ego et terere stipe ac cui oleo ac amico
+  iter autem ac aetate macri fetu et side et ter adipe et
+  testa meum metu et fimi eius et tabe id autem fit et
+  strumae aetate turbae erit apium etiam meis alia aetate et erat et
+  aetas rore scitote stipes dies errore stagni aetate et mare fuerint tot
+  per [td] et ac pe imber et maiore ac creat mixtae meis
+  meum aetate et tuetur alia et etiam si mare in erit cauda
+  et aetate et fieri aetate cum pituita ac igni ficare erit alta
+  atria in ipsa aetate quiete et erat enim ticae et etiam et
+  tuis fuerit ac fa [ds] in set poematia fa ac est esse
+  ac aetate in alia metu et utique meque et tussi equitatu upupae
+  itaque per tota sed alia earn
+
+[f108v.1,@P0] (Voynich: 581 kelime -> Latince: 325 kelime)
+  pluit comite pinna et orci arriae cre ansa ac in sit autem
+  sive pota caeli earn ac upupae pugnae crema cocta sit cum male
+  ac turbae tanti et ut aetate tangi requieta et aetate plu teucria
+  urbe autem apium iulienses etiam aetate et fiet alveum etsi nisi aurique
+  ac et favi ac eritque iussu tunsae [j] de ac ticae immota
+  pueri apes inops aetas cleo aetate [ntq] alia et et in erit
+  et utilia sciet turbae aetna tice alia et rei etsi loci aristo
+  asses utile et sit illa etsi pota etiam erat et res maesta
+  urbem et ac tuisset cera ac cui ad et insessa impe bimae
+  plu hieme alia et ac in si [sh] apio fieri ignem malvae
+  atrae in suis in utp [j] pisaeum ac assueto in aethio amplum
+  et scio anne in sive ac alia immanes in ante tice ambo
+  impetu toti ac qui alia et erit etsi ac idque asseres esse
+  [nm] alia alii per et ita utp id [sh] et alia immo
+  ac agitata ac et asiatica et cui [sh] misera ac iniuriae et
+  rufae togae ursi autem eius mem nileus meum ac re ardet urbem
+  metu etsi alia ac earn in ardea urbe potes feram earn de
+  immo rei ardet metu et raetica cerae autem media tepe quiete in
+  requieta erit etiam in aetate oriri aerario in aceto de sese ipso
+  aetatis opes et pretio iter aetate ipsa opem alto audire reli immo
+  ac ego ac femur in [j] aetate etiam et etiam eum premi
+  sive intus impe pueri et meum ager itaque et toto autem bre
+  iugis ter et sic quasi assius et illum sicae amplius set fe
+  impetu aetatis esse aliud [j] tormi erit erit utile russeo ardet totae
+  ac tepe quoque amico ac ithaca scio quaesisse tice ac taedio ter
+  piger etsi aetatis vitae premere alveo aetatis iovem et tereti etsi tesque
+  re atti tepe tice audire et ter tegi in totoque ac aere
+  illum
+
+[f111r.1,@P0] (Voynich: 622 kelime -> Latince: 344 kelime)
+  sentio sump soli ansas in intus et aetas etiam eius omniaque prope
+  scio quiete iussere etsi [td] dedi metu in arbore et ac asiatica
+  alia insidiae ac eius estque apium in satureia tarde quae autem erit
+  ntes etsi tethea meque rumpi ursae limeum et ansa in et fe
+  in ueritate hae [sh] ponte etsi quoque tussi et urinae et cervos
+  iussere ter alium pro pipere alveis alia fruor in tolli poematia alia
+  impe quae ille [sh] ac alia in sileri meis fimoque et impe
+  meum plerique et suis mari mire in macrae metu arcum apes itaque
+  uellem iter itemque alvo et alto in maior erit earum et ter
+  id esset quemque theo acri ac totoque aethio fieri metu et iter
+  ac cui in te immo meum et alia serito nego in alia
+  ac cui ac tione eius vitia immerito tussi vitae pretia et terve
+  igne igne disce sola quater padi set arcet etsi ad facie et
+  enixa inpari cre atti tarde ac erit alvi notae uersum apes europae
+  in fe posses [td] ervi ac in eorum pascere etsi ac alia
+  aetate mane induunt supra alia spei pe et erit atti ardet et
+  spathae etsi ac et arcem maiore [sh] igni ad immo alia ac
+  et fa aspexit [nm] orci ac [sh] ceu alia et ac alveo
+  et alia et iam pro angue ardui est arriae ista plastae in
+  rei ac egisse [sh] et ac et ac tussi tusco anne in
+  ac tigna omne fame aetate ac anne disce et arcae [ntq] igne
+  ignarae taedio ac turbae metu etsi ac reli atrae ignotae itaque etsi
+  in extat tussi ripae ac rore re ac insitae pater ple arce
+  imposita iugum immissa alvo intrita [sh] etsi upupae potui et invia pe
+  alvo pueri pe ac qui alia et set suum ac erit europae
+  creat scio ego octo esse indita quae esset upupae ita ac et
+  ac ore amplo scio egit scopis eius erat alia et re immo
+  ac poti ab amico ac et tempe esse atque discere et impia
+  et usque freto erit inque sciam aceti metu
+
+[f111v.1,@P0] (Voynich: 567 kelime -> Latince: 313 kelime)
+  tepe [td] osseis ntes erit acce tigna et austero in re arduum
+  merito in omnem me in rei attico uellem urbem et raetica et
+  ut metu erit et aetas croci etsi bimae egit pueri ac et
+  alvi audita orci ac aetate ac quem et fa ac sint regni
+  omnia et ac cui aetate sive fons ille ardui esse ac tepe
+  aetate totiens inpo ardua cogi cui et sit iugum et amica et
+  quae impe et jam metu immo si esset sive sequi sitque impetu
+  atqui erit urget si memoria togae ac immo sim upupae caedis ac
+  metu ac iterum queat si primo ac ad aetas totque quiete ac
+  museum appiae et ansas aetas et spei scio id alia quempiam set
+  otiosum pe et ac alia ac in tegi maeotis ture etiam et
+  ratio eius aetas arcem eorum etiam squamae alia idque atti immo caeli
+  immo europae pe [td] impetu gaudio gallae arguere aetate ac [sh] et
+  ipsa tusco quiete ter in suf etiam europae eritque uulnere et inquies
+  ad alia isque iter et testa ista ac eius hip suum [ml]
+  si uulnere aetna infit ego opem sisti est tanti [ntq] intus et
+  etiam alia pe parce iamque iugo cerati reperio aciem arimaspi pueri cera
+  iter ac re et immo impe et iugera et mare uterque iuxta
+  aestum meis pri autumni pe quamuis spei pe et sit erit alia
+  alii immo alia citet in merito anne alia re et ut sive
+  magiae erit tepe pretio aerumnae et reposita auroque esse pisce meis scepsio
+  ut etiam ac re arce poematia erit themi invia ac togae iussisse
+  erit rore magiae in intus intus autem ego acaciae in invia cui
+  alia tempe plastae isque stipe dari pisce assequi [sh] aethio aderat cesse
+  iamque scio quare maiore ac bestiae re asperi cuius totae erit et
+  otiosum praetoria esset offae alia ac me alia degi scitote et media
+  scio
+
+[f112r.1,@P0] (Voynich: 400 kelime -> Latince: 213 kelime)
+  tucci alvi alia et adipe ac cariem alia fieri meum imam autem
+  eius memoria ambo inque et astruere pe emisse mensae femi aetate apium
+  parce ac aetate idque alia oriente assidue ac aetate et eorum iubet
+  et amico ac urinae unguenta me etiam et tecta inter etiam meum
+  aliud et re [ml] et etiam omnium in ac aurium et utique
+  vi metu et aestus siti esse urbem alia imperia legi lauri etiam
+  insidiae ac iter et texere et ac iam et alia ervi aetate
+  tunsa alia et ore orsae cute esse in et inedia et lemnio
+  etiam ac ideoque immo quem arteriae amavi esse upupae etiam macie acres
+  erit iter et omnia iter testa stipes et etiam sciant de et
+  uellem sed etiam tice ac me alia [td] ursae rei ac erit
+  ac etiam meque osse medio alia ac alia ad [sh] ac suum
+  primae faba sine atqui iussere dh alia ac dh ignotae ambo milia
+  ibide costi tussi arietum alia alii taedio ac sive quiete et pituitae
+  aetate circe taedio immo arsit metu et tertia morte et me fide
+  et pota iubet et uspiam licere bibi obisse utile arti alia sit
+  et etiam ex mare alia et tertia et re arcus ad immota
+  esse ab alia et ut essem freto chio immota
+
+[f112v.1,@P0] (Voynich: 418 kelime -> Latince: 223 kelime)
+  metu exerti et arriae male insula et tot etiam lisso alia eius
+  alia alii me pretio ac metus altius meum et aetate tunsa eodem
+  pretio in magi et taedio ac essem et maior etiam prima toto
+  metu inpo alia et etiam amplae iubebo in sebo linteo et ne
+  arcet agro et apio in ac me impetu eorum mentiri in fuerit
+  alte ad atti tacite fiet tepe aetas orbe et insidiae aetas materia
+  aetate in ager erit sed erit id alia et erit esse metu
+  alto iacens ad alii immo ac exce orci alia alii quae pota
+  metu fidemque aerario aetatis aetate inpo ac rore tergo russeo [sh] fe
+  ac suetum inpo alia tantae utendi res meruisse ac iussere ciet fusi
+  vis vagi tigri et arcet etsi ac urbi opem asiatica et erit
+  assuetos ac tice fimo fas et caedi et testa aestum et etsi
+  merulae [j] teucria est aestate alia alii auget aetate fessi iam amplior
+  dif sive pota spei sive pla ardet res vita pueri itemque pe
+  malva de alia meis urbi alia iter terna ad alia ubi ac
+  aerarium fe pago in iter ultimae meum et auroque scio in ter
+  in sive erit campo baebius tepe ac aeris auroque aetas pretio stibi
+  etiam mutuo crure meis antem omni cura ac tice eorumque meis oriens
+  erit sed etiam avem cum prope milia
+
+[f113r.1,@P0] (Voynich: 528 kelime -> Latince: 266 kelime)
+  est arriae ergo plumam opti unciae cera notae cleo et ac fa
+  ac alia et pisaeum obiterque pe alia ac insidiae tritae umquam et
+  scias editur aridae iugera et meum [ml] et sabaei etsi ac ita
+  ac aegris obiter capite optet agris istum et metu erit si fuit
+  eximia dorsi etruria imum femur alto intima in igne ac impe sim
+  etsi ursae oriri et ut semis inculta agro et trem ac esse
+  apte apta est legi opti ac eorum pro ac euboea estque ac
+  rei ad et pota serra russeo arti et nus sit aut rufi
+  etiam suam idem seri suf tria ripa spei gem prae tabe infe
+  invia scire metu et sidera et intra sint atque illa atti ursae
+  spei iubet meus sub iter tusco opti toti fui opti apte pomi
+  caro alia alii alias ob idque iam pteri erit inter illa sabaei
+  et aliis internodia ac arida ibi in oleum ore [td] et [sh]
+  optet aurium meum ille meum artium tegendo sitque et ut earum sita
+  obrui fri omnisque iam etiam ter omissa auget ego [ds] aestum infici
+  et sua ad [j] et bimam utendi infida ictum forda hae tarde
+  bestiam in simo in euboea et ac abortu ardua ca extare [td]
+  et uvae [j] aiunt immaturae maeotis metu alia ponte oriente bestiae alibi
+  pe alia ac ad et ego ac aurique pansa ampla per apio
+  alia aurium istis meis europam apio spatio metu tigri et sit fui
+  ac alia aetate ambiente tuis et tuis video gig iubet [sh] esse
+  opti qui alia et me ac antiate pari meum et etiam esse
+  tepe tormi
+
+[f113v.1,@P0] (Voynich: 500 kelime -> Latince: 274 kelime)
+  aiunt emitti inque aestuarium utile potui mari mm maiorem ubi optime alia
+  ac alia et taedio et media et aciem infe ignem eorum meum
+  admotae infimae teucria alia iam ac quodsi mare maesta meum alia ac
+  orci tria esse inops bimae meum cui alia etiam eius sive quam
+  latae tice et binum alia stilo europam meum aetate ambo aquileiam alia
+  aetas iubent malvae in ac sim rivi equitatu et tice alia tinctae
+  ac antistio ebore in sura ac tepe sed et ratio alia seq
+  potui esca hip ostrea in metu et toti tethea et fa qui
+  pix ante alia iuxta ac et meum supra iuxta erit et ciet
+  templi licet tritae item ciet ac aetate aetate ac tritae iam coepi
+  equis lepti pomo est aestivo arti ac ossa [ls] altitu ac arcem
+  alia intima ac imum europae et invia ac invia opem ac tuis
+  enim tussi erit [sh] ita alia vitia ac cui atti eius alia
+  iam pro etsi ac me alia ac et suum et vera cleo
+  arva quiete scio imum impe ac tuetur alia cum pretio arceat et
+  territi apta in augebo iamque tota sciat attico alia eorum potuisse hae
+  tantae arteriae haec et circaque acce et in emitti etiam sues amurcae
+  seri alia arcem iamque etiamne ltaliae europam alia et metu [sh] exce
+  et amico et et alia et atrae arti etsi in et alia
+  et murrae aeantion ac iugo ac et alia et iam specie queat
+  in iugum et mali impe utp alia postea bimae ambo et per
+  ac cui ripae inquis me alia tuis istic et rore cellae ita
+  erit esse potui in sumi et amica [td] penna et
+
+[f114r.1,@P0] (Voynich: 446 kelime -> Latince: 240 kelime)
+  maciem europae chio alveum ac et et ostrea alia et ac suf
+  plastae moveri arte [td] se fieri iter in side abire iter ebore
+  in tussi fusi editis etsi recte et sed nero arriae angit cui
+  inque bimae aestas non in erit buxeo in notae sed sub arriae
+  ac atti etiam esse ex earn euboea in ova omnium ac cui
+  me vel inquam unciae et enim vi et et fa ac tria
+  ac etiam cum came iugum cumque maiore tice erit in tentia iubet
+  et nardi est actione est in iunco enim idque fui quae femi
+  acri et meum in aliqua bruma cibo austero acce quae alia iugo
+  ac morbi exce ac ad immo [ml] aetna ore aegri intra supra
+  idque sine macaria et rerum pretia intra inque alia atti tunc tepe
+  taetri invia in sine incoqui medio per intraret suf tice tiva aetna
+  atti alia seri intima et fetu pe et et accepi immota ambo
+  idque et etiam et caeli ratio iumento rum cum in alvo et
+  idem et ac in fa et gen eorum et ac ita et
+  et sed fame immota dente tenui alia et hiatu ut utp ac
+  ita offa atti iam ebore alia alii immo et ac rei admi
+  in testa meum bimae arcem agro intus in iam fame eorum tussi
+  et minime iumenta martio etruria rufi fui agro alimenta magiae in inurere
+  ecce etiam dari et alia inertia in fa incom sed erit fui
+
+[f114v.1,@P0] (Voynich: 375 kelime -> Latince: 194 kelime)
+  ne ferro ictus in acre in mare incom femi fui fusae inmunem
+  eminent media ac in teucria acri fimeta in fuit erat armis gaviae
+  intima aestus fama cum re ad et fabri estque morbo sed et
+  fimum et putent se mira fimo fe in omne intima eorum acri
+  mardi arti alter ex fui in meantium in nisi ad iam pro
+  amne agendi est stoebe simum fuerit erit rore per bacae inter ac
+  et fusae dies edita misera anguium fui aegreque chio iugo et mari
+  apium et medium et sebo in sed aeris etsi amico invia aeris
+  de tabe acri in alia fabre tanti [ds] pulsu tentia apium renium
+  et insidiae et intima putem ad alium ac ego omnia et [j]
+  ac etiam eum seri etiam sunt dh offae alia et sistere alia
+  est et auroque meum imum male cogi optet etiam meum et erucae
+  tria argutiae sese messe gaviae etsi ac et te fui acri vis
+  alia atti sicca arcet scinco hirta [ntq] antistio artemi ac et ambo
+  octo ac timeam et iterum morbi iumenta clamat et orci in tum
+  dein alto excogi et eam magi ac arce in amurcae tetra etiam
+  ac timide
+
+[f115r.1,@P0] (Voynich: 460 kelime -> Latince: 227 kelime)
+  ista fame ac arcem ntes etsi tussi atrae etsi iussu abicere urina
+  cera ulce iter arabia meum rufae enim aetate iacent eligendi antiate aetas
+  rufae eximiae sed in oriente rufae sim adde eboreum facie et et
+  arcana alia ac est arcet orci cogi alia alii retro ante igne
+  iubet et fimo contenta in rarior strabo legi spirae ita cogno in
+  alia rei et lauri ante iubent conve opera ad res praeda tangi
+  et egit eorum eximia europae atti ansa pre hen annaeum incuria iumenta
+  carentia in ne mari et cera quae abieti cogno iubent oriente arriae
+  ambo apte adser obiter ac cera cassio alia si [ml] alia ac
+  eretria aeantion res audire recti taxo ubi ad aethio iussisse cera bacae
+  iactatu alia alii et re alia serica ac iugulo et suf erunt
+  metu exoriente ad alia eum premi causae ustione [j] alia erit erit
+  si regio agro ac id triste alia ac impe sale alia arabiae
+  quaepiam obruatur intecti in arti accolae id erit et ter mergi cera
+  et eorum sciat et europae estque invia ac esset aliamque lauri alia
+  ac in ne in ora iuncta xeno sanies alibi aliud et bestia
+  in remedia intubi deli sabaei in sim et erit neutra itaque balneo
+  set intra alia neque quoque bile spatia quae totae in sentio iubebo
+  media aliquae ardore suum item alia meum alia et octo strata
+
+[f115v.1,@P0] (Voynich: 410 kelime -> Latince: 201 kelime)
+  antem meum ac lens etiam aut lancea ab sed bourn prae busque
+  aiunt meum optime alia ac antem suum cumque meum sura enim tardi
+  mare ac ictum et sit atti tria aptius intima et effusa dum
+  edant eximia opti aquilae dies me fiet arinca spei antiquae ptole meis
+  initio etsi tu [sh] peius [ds] indigne pe aetna dierum et seri
+  si eadem infe alia alii in alia memet et impetu tepe aetna
+  erit quam de meis questus autem idem et mare in obesum pelagi
+  caementa hae invia cui et euboea ple apio inpo ardet unciae creat
+  etiam eorum seq aristo et ad immo suf omnia antiate octob aquilae
+  ac meis nepoti alia cogi per eam truci et alvo spei et
+  aurique cereri reor si magnae ac suis si prope ac si rupta
+  alvi alia epist artis mergi iubet fe aptius odore fiant omnia sed
+  quem aetna dh antiate set scio [j] tegi pe ac [ml] oleo
+  themi et meo opto huius pomi prae effigie etsi et ac alia
+  iam pro spumae caritate tepe opti pago tarde ad rei alia si
+  alibi impe sentio ac sua arce ursae infe apte ubi pe optet
+  sale aetatis et bibi alium queat fixae tuis etsi
+
+[f116r.1,@P0] (Voynich: 553 kelime -> Latince: 313 kelime)
+  eius item impe immo alia sero immota etesiaca alia me praeter alia
+  et in sura illi villa mus si intus acaciae scio ornare meum
+  et in bimae europae meum et amico loci de ac quare maiore
+  [tl] meum marem autem eum enim erit et rapa alveum cuique itaque
+  et aetas venis et sole se sine alia me ac et arduum
+  metu auroque pe utp immo alia et in arietum quem in de
+  immo mergi et eorum taedio immo sura ac ad ceu crema me
+  in titen ac tisanae resima ac quiete imum in mixtae in erit
+  et aceto ac ratio alia immo morte aciem amurcae [ml] alia et
+  suum argema alia omnia limam et in erit ac reli et eorum
+  et aetate cum meo idque sit erice sura ac late atqui annonae
+  sit eorum armatae meum nero in opes et suum [ml] immo immo
+  ciet et omnium satiatae et aerario arvis aetate atque etiam [ml] immo
+  immo ac insunt ut sciam ac remoto alto in erit illa alia
+  scapi rei [ls] illita ambire quae pompei uvae ac iter mare ullius
+  rei ac pago et sura ac utiles autumni et atti armi ac
+  inde aliae [ml] alia pilae sole et si ac quiete supra ciet
+  linteo sit sic alia alii et alia alia arvo et ut alia
+  sequi totque urnas aetate itaque pilo iuvatque letalis tepe ac in re
+  ipsa alno ammento sua ac et europae pe quiete ille in tollit
+  spes iter et aliis iter immo sit et ac tussi [sh] alia
+  ac prius tuis totque ac re ac aurique [nm] sese alia immo
+  impetu sibi scio late ipsa terve fresa side alia ac impe mel
+  in meis earn ad aetate atqui ac quo spolia iure cornua nisi
+  et cera ac sit chio media friuola sciat toto immo pater in
+  et macie sit erice alia rela ac ora ac omnia scio cummi
+  alii
+
