@@ -96,7 +96,6 @@ To test whether left and right vowel boundaries communicate across intervening c
 
 * **Key Result:** Even when the middle Voynich token **Word<sub>*i*</sub>** is held strictly fixed, the preceding word's suffix and following word's prefix share **`+0.02373 bits`** of excess mutual information (**`+5.02σ`**, `0/1,000` random permutations exceeded observed CMI). Furthermore, short tokens (`chey`, `ar`, `or`, `ol`) exhibit roughly **2x higher boundary coupling** than multi-syllable tokens (`qokeedy`), confirming their role as vowel-state bridges.
 
-
 ### I. Unilateral `(Preceding Vowel + Consonant)` Correlation ($r = 0.9800$)
 * Decomposing a pure Medieval Latin medical corpus (*Celsus, Pliny, Columella, Marcellus*) into unilateral `(Preceding Vowel + Consonant Cluster)` units yields a vocabulary size of **7,283** unique blocks (closely matching Voynich's **8,447** unique word types) and achieves a **Pearson frequency correlation of $r = 0.9800$** across the top-25 rank distribution.
 * Cross-linguistic testing against Medieval Italian (peak frequency $6.71\%$) and Middle High German ($9.56\%$) confirms that inflectional, article-free **Medieval Latin** (peak frequency $2.80\%$ vs. Voynich $2.10\%$) provides the closest structural fit.
@@ -108,7 +107,7 @@ To test whether left and right vowel boundaries communicate across intervening c
 
 ---
 
-## 3. Section-Specific Anchors & Cryptanalytic Breakthroughs (v1.2.0)
+## 3. Section-Specific Anchors & Cryptanalytic Breakthroughs
 
 ### A. Zodiac Element Segregation (`f70v2 – f73v`)
 Analysis of the 300 single-word star/nymph labels across the 12 Zodiac folios reveals strict morphological segregation aligned with classical **Aristotelian/Galenic Element Triplicities**:
@@ -132,7 +131,7 @@ Applying a frequency-capped consonant key and a Medieval Latin bigram Viterbi vo
 | **`f103r.43`** | `tar cheal ol sheey qotal sheal qokal sheedy` | `s-c-m-m-r-r-s-n` | ***suci memoriae resina*** *(resin of the juice...)* |
 | **`f103r.36`** | `chedy okeedy qokeedy qokeey shdy otey qokeey` | `s-c-s-t-s-n-t` | ***socios tisana ut*** *(barley-water decoction so that...)* |
 
-### C. Full-Page `f103r` Restoration & Null-Control Validation ($Z = +11.04\sigma$)
+### D. Full-Page `f103r` Restoration & Null-Control Validation ($Z = +11.04\sigma$)
 Applying a frequency-capped consonant key (`2,566` tokens) and a proper-noun-filtered Medieval Latin bigram Viterbi vowel restorer across all **54 lines of folio `f103r`** (Starred Recipes section) recovers coherent pharmaceutical phrases:
 
 | Folio Line | Coverage | Voynich (`ZL3b-n`) | Restored Medieval Latin |
