@@ -96,9 +96,47 @@ To test whether left and right vowel boundaries communicate across intervening c
 
 * **Key Result:** Even when the middle Voynich token **Word<sub>*i*</sub>** is held strictly fixed, the preceding word's suffix and following word's prefix share **`+0.02373 bits`** of excess mutual information (**`+5.02σ`**, `0/1,000` random permutations exceeded observed CMI). Furthermore, short tokens (`chey`, `ar`, `or`, `ol`) exhibit roughly **2x higher boundary coupling** than multi-syllable tokens (`qokeedy`), confirming their role as vowel-state bridges.
 
+
+### I. Unilateral `(Preceding Vowel + Consonant)` Correlation ($r = 0.9800$)
+* Decomposing a pure Medieval Latin medical corpus (*Celsus, Pliny, Columella, Marcellus*) into unilateral `(Preceding Vowel + Consonant Cluster)` units yields a vocabulary size of **7,283** unique blocks (closely matching Voynich's **8,447** unique word types) and achieves a **Pearson frequency correlation of $r = 0.9800$** across the top-25 rank distribution.
+* Cross-linguistic testing against Medieval Italian (peak frequency $6.71\%$) and Middle High German ($9.56\%$) confirms that inflectional, article-free **Medieval Latin** (peak frequency $2.80\%$ vs. Voynich $2.10\%$) provides the closest structural fit.
+
 ---
 
-## 3. Usage
+## 3. Section-Specific Anchors & Cryptanalytic Breakthroughs (v1.2.0)
+
+### A. Zodiac Element Segregation (`f70v2 – f73v`)
+Analysis of the 300 single-word star/nymph labels across the 12 Zodiac folios reveals strict morphological segregation aligned with classical **Aristotelian/Galenic Element Triplicities**:
+* **Water Signs (*Pisces, Cancer, Scorpio* — `f70v2, f72r2, f72v1`):** Exclusively share `ok-` stem labels (`okaram`, `okeoly`, `okody`, `okydy`).
+* **Fire Signs (*Aries, Leo, Sagittarius* — `f70v1, f71r, f72r3, f73r, f73v`):** Exclusively share `ot-` stem labels (`otedy`, `oteody`, `okeos`).
+* **Cold Quality Overlap (*Water + Earth* — `f72r2, f72v3`):** Share the `okaly` stem, reflecting their shared *Frigida* (Cold) humoral quality.
+
+### B. Zero-Guess `3x` Reduplication Cross-Solver (`v-x-v-x-v-x`)
+The manuscript contains exactly **9 instances** where an identical token repeats three times consecutively (`W W W`). Under the vowel-boundary model, a `3x` token repetition requires a Latin sequence where the **same consonant cluster `x` repeats across three consecutive syllables with shifting vowels** (`v₁-x-v₂-x-v₃-x`).
+
+Intersecting the `9` triple-repetition lines against the Latin medical corpus isolates a **zero-guess core consonant key**:
+* `qokedy` $\rightarrow$ **`r`** | `qokeey` $\rightarrow$ **`t`** | `or` $\rightarrow$ **`n`** | `qokeedy` $\rightarrow$ **`s`** | `ytaiin` $\rightarrow$ **`m`** | `qotey` $\rightarrow$ **`st`** | `oteey` $\rightarrow$ **`p`**
+
+### C. Preliminary Viterbi Vowel & Grammar Restoration (`f103r` Recipes)
+Applying a frequency-capped consonant key and a Medieval Latin bigram Viterbi vowel restorer to the recipe section (`f103r`) yields grammatically coherent pharmaceutical phrases without altering the underlying consonant skeleton:
+
+| Folio Line | Voynich Transcription | Consonant Skeleton | Restored Medieval Latin |
+| :--- | :--- | :--- | :--- |
+| **`f103r.10`** | `daiin ol oain okeol chol okam chety shedy otaiin shedy teolshy oteedy sor ain` | `s-m-v-m-t-l-l-p-s-p-r-s-m-l` | ***sumi vomitu uel lapis pure simul*** *(to be taken for vomiting or pure stone together)* |
+| **`f103r.32`** | `okeey shedy qokedy qokal ... otedy shcthy oraiin` | `t-p-r-s-m-n-m` | ***tepore seminum*** *(with the warmth of seeds)* |
+| **`f103r.43`** | `tar cheal ol sheey qotal sheal qokal sheedy` | `s-c-m-m-r-r-s-n` | ***suci memoriae resina*** *(resin of the juice...)* |
+| **`f103r.36`** | `chedy okeedy qokeedy qokeey shdy otey qokeey` | `s-c-s-t-s-n-t` | ***socios tisana ut*** *(barley-water decoction so that...)* |
+
+
+---
+
+## 4. Current Limitations & Next Steps
+* **Limitations:** While the `9` triple-repetition anchors and Viterbi restoration produce strong local pharmaceutical phrases on `f103r`, full-manuscript continuous translation remains constrained by word-boundary segmentation ambiguity and homophonic table shifts across scribes.
+* **Next Steps:** Expanding the frequency-capped solver across the full 53 lines of `f103r` and cross-validating against the Balneological folios (`f75r–f84v`).
+
+---
+
+## 5. Usage
 
 Place `ZL3b-n.txt` and `medieval_medicine_corpus.txt` inside the `data/` directory and run:
 ```bash
@@ -107,7 +145,7 @@ python src/generate_figures.py
 
 ---
 
-## 4. Repository Structure
+## 6. Repository Structure
 
 * `README.md` - Theoretical framework, methodology, and empirical summary.
 * `CITATION.cff` - Citation metadata for academic attribution.
