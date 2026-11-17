@@ -15,7 +15,7 @@ This repository presents an original structural and cryptographic hypothesis reg
 
 Unlike conventional decipherment models that treat spaces as word boundaries and characters as direct phonetic substitutions, this model proposes:
 1. **Word Boundaries as Active Vowel States:** Spaces between Voynich words encode **5 primary vowel states (`A, E, I, O, U`)**, corresponding to 5 distinct cipher tables.
-2. **Words as Context-Encoded Consonant Clusters:** Individual Voynich words represent **consonant clusters** stripped of vowels and encoded according to the adjacent vowel state table (e.g., *trend* $\rightarrow$ split at `e` $\rightarrow$ `tr` + `nd` $\rightarrow$ encoded via Table E).
+2. **Words as Context-Encoded Consonant Clusters:** Individual Voynich words represent consonant clusters stripped of vowels and encoded according to their adjacent (primarily preceding) vowel state table (e.g., Latin *herba* $\rightarrow$ split at *e* $\rightarrow$ `h` + `rb` $\rightarrow$ encoded via Table E; or *cinnamomum* $\rightarrow$ repeated `m` clusters).
 3. **Diphthongs & Vowel Transitions:** When consecutive words belong to different vowel tables (e.g., Table A followed by Table E), the boundary transition encodes a vowel transition or Latin diphthong (`ae`, `oe`, `au`, `ia`, `ie`, `io`).
 4. **Apparent Word Reduplication:** Consecutive identical Voynich words (*e.g., chol chol*) are explained as cross-word consonant collisions across identical vowel states (*e.g., et terra* $\rightarrow$ `t` [Table E] + `t` [Table E]).
 
