@@ -40,10 +40,7 @@ Unlike conventional decipherment models that treat spaces as word boundaries and
 
 ![Zipf Alignment](figures/03_zipf_contextual_fit.png)
 
-### D. Entropy-Guided Self-Critical Transformer Pipeline
-* An unsupervised dual-head Transformer architecture was built using whole-word Voynich embeddings and trained via Self-Critical Sequence Training (SCST) against a Medieval Latin 3-gram Cross-Entropy and Shannon Entropy reward function.
-
-### E. Positional Suffix Divergence & Paragraph-as-Sentence Proof (`@L` vs. Mid-Paragraph vs. Paragraph-Final)
+### D. Positional Suffix Divergence & Paragraph-as-Sentence Proof (`@L` vs. Mid-Paragraph vs. Paragraph-Final)
 * **Paragraph-Final Closure (`-y` and `-am` Surge):** Across 264 paragraph-final tokens, the `-y` suffix doubles in frequency from **12.4%** (mid-paragraph) to **22.7%** (paragraph-final), while `-am` emerges at **6.4%** exclusively at paragraph endings—confirming that grammatical sentences terminate at paragraph boundaries rather than line breaks.
 * **Standalone Labels (`@L`):** Across 577 isolated illustration labels, mean token length increases to **5.61 characters** (vs. **5.07** mid-paragraph) to compensate for the absence of neighboring word boundaries, shifting almost exclusively to nominal endings (`-y` 22.2%, `-dy` 9.4%, `-ar` 7.8%, `-ol` 6.4%, `-al` 6.2%) while dropping mid-sentence verbal suffixes (`-ey`, `-edy`).
 
@@ -53,7 +50,7 @@ Unlike conventional decipherment models that treat spaces as word boundaries and
 | **Mid-Paragraph Tokens** | 33,475 | `5.07` (±1.93) | `-y` (12.4%), `-ey` (10.7%), `-aiin` (9.1%), `-edy` (8.3%), `-ol` (7.9%) |
 | **Paragraph-Final Tokens** | 264 | `5.34` (±1.82) | `-y` (22.7%), `-aiin` (11.4%), `-ey` (9.1%), `-am` (6.4%), `-ol` (6.1%) |
 
-### F. Domain-Driven Consonant Cluster Shift (Explaining Currier A & B Divergence)
+### E. Domain-Driven Consonant Cluster Shift (Explaining Currier A & B Divergence)
 In Voynich scholarship, distinct vocabulary shifts between Botanical/Herbal sections and Astronomical/Biological sections are traditionally attributed to two separate dialects or scribes (*Currier A* vs. *Currier B*). Under the Vowel-Boundary State Hypothesis, a single unified cipher mechanism naturally produces this divergence when the underlying domain vocabulary shifts:
 
 * **Domain-Specific Consonant Signatures:** Across 3,861 Botanical/Medical passages vs. 1,015 Astronomical passages in Medieval Latin corpora, multi-consonant clusters shift sharply by subject matter—such as **`chm`** (*chymus*, 18.88x), **`dstr`** (*adstringere*, 11.10x), **`lb`** (*albus*, 5.71x), and **`stl`** (*stillare*, 4.58x) in Botanical/Medical texts vs. **`gn`** (*signum/signa*, 3.18x), **`npl`** (*in planeta*, 2.46x), and **`nsc`** (*ascendens*, 2.43x) in Astronomical texts.
@@ -67,7 +64,7 @@ In Voynich scholarship, distinct vocabulary shifts between Botanical/Herbal sect
 | **`gn`** (Multi-Consonant) | 395 | 349 | **3.18x** (Astronomical) | *signum, signa* |
 | **`npl`** (Multi-Consonant) | 18 | 12 | **2.46x** (Astronomical) | *in planeta, planetis* |
 
-### G. Forward Cipher Information-Theoretic Benchmark ($H_1$ & $H_2$ Entropy Anomaly)
+### F. Forward Cipher Information-Theoretic Benchmark ($H_1$ & $H_2$ Entropy Anomaly)
 One of the most cited statistical anomalies of the Voynich Manuscript is its unusually low second-order conditional character entropy ($H_2 \approx 2.17\text{ bits}$), compared to $3.1\text{–}3.4\text{ bits}$ in natural European languages. Passing plain Medieval Latin medical texts forward through the 5-Vowel Boundary State Cipher naturally reproduces this entropy compression without artificial gibberish rules:
 
 | Corpus / Model | $H_0$ (Max) | $H_1$ (Unigram) | $H_2$ (Conditional) | Mean Token Length |
@@ -78,7 +75,7 @@ One of the most cited statistical anomalies of the Voynich Manuscript is its unu
 
 * **Key Result:** The forward cipher drops Latin's conditional entropy $H_2$ by **1.079 bits** (`3.366` $\rightarrow$ `2.287`), accounting for **~90% of the gap** to actual Voynich (`2.167 bits`), while simultaneously matching unigram entropy $H_1$ (`3.90` vs. `3.87`) and narrowing word length variance (`±1.41`).
 
-### H. Cross-Section Subspace Invariance (Currier A vs. Currier B Grassmannian Alignment)
+### G. Cross-Section Subspace Invariance (Currier A vs. Currier B Grassmannian Alignment)
 To test whether the 5-dimensional boundary cipher mechanism stays invariant when moving from Herbal/Pharmaceutical pages (**Currier A**, 1,985 lines) to Biological/Astronomical/Recipe pages (**Currier B**, 2,386 lines), independent normalized SVD decompositions were compared via principal subspace angles against a 1,000-trial Monte Carlo random baseline:
 
 | Subspace Component | Top-5 Variance (A / B) | Subspace Cosine Similarity | Random Baseline | Z-Score Significance |
@@ -88,7 +85,7 @@ To test whether the 5-dimensional boundary cipher mechanism stays invariant when
 
 * **Key Result:** Both sections independently concentrate >72%–82% of boundary variance in 5 dimensions, and their primary latent axes align within **10.4°–18.0°** ($+6.16\sigma$ to $+10.65\sigma$ above chance), proving that Currier A and Currier B operate under the **same underlying 5-state boundary mechanism** rather than two separate languages.
 
-### I. Second-Order Boundary Conditional Mutual Information — *I*(Suffix<sub>*i*−1</sub> ; Prefix<sub>*i*+1</sub> | Word<sub>*i*</sub>)
+### H. Second-Order Boundary Conditional Mutual Information — *I*(Suffix<sub>*i*−1</sub> ; Prefix<sub>*i*+1</sub> | Word<sub>*i*</sub>)
 To test whether left and right vowel boundaries communicate across intervening consonant clusters rather than being chosen independently, Conditional Mutual Information was computed across **18,110 consecutive word triplets** (280 unique fixed middle words occurring $\ge 15$ times) and calibrated against **1,000 exact within-group permutations**:
 
 | Metric | Observed Value | Shuffled Null Baseline | Statistical Significance |
