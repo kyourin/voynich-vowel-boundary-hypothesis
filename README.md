@@ -156,9 +156,9 @@ To verify that the recovered pharmaceutical terminology is driven by the structu
 
 ---
 
-### 4 — Generative Entropy Validation & Full-Corpus Viterbi Decipherment
+## 4 — Generative Entropy Validation & Full-Corpus Viterbi Decipherment
 
-# A. Generative Forward Simulation (`f(V_left, C)`)
+### A. Generative Forward Simulation (`f(V_left, C)`)
 Applying a unilateral vowel-state prefix transformation `f(V_left, C)` directly to continuous Medieval Latin reproduces the core statistical anomalies of the Voynich Manuscript (`ZL3b-n`) without word-level memorization:
 
 | Metric (35,000 Tokens) | Natural Latin | Unilateral `f(V_left, C)` Model | Actual Voynich (`ZL3b-n`) |
@@ -168,7 +168,7 @@ Applying a unilateral vowel-state prefix transformation `f(V_left, C)` directly 
 | **Adjacent `2x` Repetitions** | `8` | **`113`** | **`278`** |
 | **Adjacent `3x` Repetitions** | `0` | **`1`** | **`8`** |
 
-# B. Cross-Section Null-Control Validation (25-Trial Permutation Tests)
+### B. Cross-Section Null-Control Validation (25-Trial Permutation Tests)
 Decomposing Voynich tokens into `[Left Vowel Prefix] + [Consonant Stem] + [Right Vowel Suffix]` and decoding with a boundary-locked Viterbi solver yields positive grammatical and medical/botanical Z-scores across all major sections simultaneously:
 
 * **`f1r` (Botanical — Currier A):** Bigram `Z = +2.95σ` (`26` vs. Null `8.9 ± 5.8`)
