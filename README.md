@@ -115,4 +115,4 @@ python src/generate_figures.py
 * `README.md` - Theoretical framework, methodology, and empirical summary.
 * `CITATION.cff` - Citation metadata for academic attribution.
 * `figures/` - High-resolution visualizations (Boundary Heatmaps, SVD Scree Plot, Zipf Alignment Curves).
-* `src/` - Python scripts for statistical analysis, encoder/decoder simulations, and PyTorch RL models.
+* `src/` - Python scripts for statistical analysis
