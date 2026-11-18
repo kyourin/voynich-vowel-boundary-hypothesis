@@ -25,7 +25,7 @@ voynich_path = find_data("ZL3b-n.txt")
 pure_latin_path = find_data("pure_latin_corpus.txt")
 
 print("=" * 90)
-print("1. VOYNICH EL YAZMASINDA AYNI KELİMENİN 3 KEZ PEŞ PEŞE TEKRARLANDIĞI SATIRLAR")
+print("1. LINES IN THE VOYNICH MANUSCRIPT WHERE THE SAME WORD IS REPEATED THREE TIMES IN A ROW")
 print("=" * 90)
 
 voy_triples = []
@@ -66,10 +66,10 @@ for w in words:
                 single_word_triples[(w, c_blocks[i])] += 1
 
 print("\n" + "=" * 90)
-print("2. TEK LATİNCE KELİME İÇİNDE AYNI ÜNSÜZÜN 3 KEZ TEKRARLANDIĞI (v-x-v-x-v-x) KELİMELER")
+print("2. WORDS IN LATIN IN WHICH THE SAME CONSONANT IS REPEATED 3 TIMES (v-x-v-x-v-x)")
 print("=" * 90)
 for (w, x), cnt in single_word_triples.most_common(25):
-    print(f"  Kelime: '{w:<16}' (n={cnt:3d})  -->  Tekrarlayan Sabit Ünsüz (x): '{x}'")
+    print(f"  Word: '{w:<16}' (n={cnt:3d})  -->  Recurring Fixed Consonant (x): '{x}'")
 
 phrase_triples = Counter()
 
@@ -84,7 +84,7 @@ for i in range(len(words) - 2):
                 phrase_triples[(c_blocks[k], phrase)] += 1
 
 print("\n" + "=" * 90)
-print("3. ARDIŞIK 2-3 KELİMELİK GERÇEK LATİNCE İFADELERDE 'v-x-v-x-v-x' TEKRARLARI")
+print("3. REPETITIONS OF 'v-x-v-x-v-x' IN SEQUENTIAL 2–3 WORD AUTHENTIC LATIN PHRASES")
 print("=" * 90)
 for (x, phr), cnt in phrase_triples.most_common(30):
-    print(f"  Ünsüz (x='{x:<2}'): '{phr:<32}' (n={cnt:2d})")
+    print(f"  Consonant (x='{x:<2}'): '{phr:<32}' (n={cnt:2d})")
