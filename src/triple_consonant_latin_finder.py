@@ -24,9 +24,6 @@ def find_data(filename):
 voynich_path = find_data("ZL3b-n.txt")
 pure_latin_path = find_data("pure_latin_corpus.txt")
 
-# =====================================================================
-# 1. VOYNICH EL YAZMASINDAKİ TÜM 3'LÜ (W W W) TEKRAR SATIRLARINI ÇIKAR
-# =====================================================================
 print("=" * 90)
 print("1. VOYNICH EL YAZMASINDA AYNI KELİMENİN 3 KEZ PEŞ PEŞE TEKRARLANDIĞI SATIRLAR")
 print("=" * 90)
@@ -54,9 +51,6 @@ with open(voynich_path, "r", encoding="utf-8", errors="ignore") as f:
                 else:
                     i += 1
 
-# =====================================================================
-# 2. SAF LATİNCE KÜLLİYATTA TEK KELİME İÇİNDE 'v-x-v-x-v-x' TEKRARLARI
-# =====================================================================
 with open(pure_latin_path, "r", encoding="utf-8", errors="ignore") as f:
     text = re.sub(r"[^a-z\s]", " ", f.read().lower())
 
@@ -77,9 +71,6 @@ print("=" * 90)
 for (w, x), cnt in single_word_triples.most_common(25):
     print(f"  Kelime: '{w:<16}' (n={cnt:3d})  -->  Tekrarlayan Sabit Ünsüz (x): '{x}'")
 
-# =====================================================================
-# 3. ARDIŞIK 2-3 KELİMELİK GERÇEK LATİNCE İFADELERDE 'v-x-v-x-v-x' TEKRARLARI
-# =====================================================================
 phrase_triples = Counter()
 
 for i in range(len(words) - 2):
