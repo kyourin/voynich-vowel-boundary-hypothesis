@@ -189,7 +189,7 @@ Decomposing Voynich tokens into `[Left Vowel Prefix] + [Consonant Stem] + [Right
 
 ## 5. Usage
 
-Place `ZL3b-n.txt` and `medieval_medicine_corpus.txt` inside the `data/` directory and run:
+Place `ZL3b-n.txt` and `medieval_corpus.txt` inside the `data/` directory and run:
 ```bash
 python src/generate_figures.py
 ```
