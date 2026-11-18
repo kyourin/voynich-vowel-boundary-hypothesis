@@ -24,9 +24,6 @@ def find_data(filename):
 
 pure_latin_path = find_data("pure_latin_corpus.txt")
 
-# =====================================================================
-# 1. KÜLLİYATTAN ÜNSÜZ İSKELETİ SÖZLÜĞÜ VE BIGRAM DİLBİLGİSİ MODELİ
-# =====================================================================
 with open(pure_latin_path, "r", encoding="utf-8", errors="ignore") as f:
     latin_words = re.findall(r"[a-z]+", f.read().lower())
 
@@ -34,8 +31,6 @@ word_freq = Counter(latin_words)
 bigram_freq = Counter(zip(latin_words[:-1], latin_words[1:]))
 tot_words = sum(word_freq.values())
 
-# Ünsüz dizisinden gerçek Latince kelimelere giden indeks
-# Örn: ('s', 'c', 's') -> [('sucus', 226), ('siccus', 45), ...]
 cseq_to_words = defaultdict(list)
 for w, cnt in word_freq.items():
     if cnt >= 2:
@@ -54,9 +49,6 @@ def bigram_logp(w1, w2):
         return math.log((c12 + 0.5) / (c1 + 10.0)) + 2.5
     return math.log(0.05 / (c1 + 50.0))
 
-# =====================================================================
-# 2. VİTERBİ ÜNLÜ VE KELİME SINIRI RESTORATÖRÜ
-# =====================================================================
 def restore_latin_sentence(c_list):
     n = len(c_list)
     dp = [{} for _ in range(n + 1)]
@@ -109,9 +101,6 @@ def restore_latin_sentence(c_list):
 
     return " ".join(reversed(words_out))
 
-# =====================================================================
-# 3. f103r ÇEKİRDEK REÇETE SATIRLARININ TAM CÜMLE RESTORASYONU
-# =====================================================================
 TARGET_SKELETONS = [
     ("f103r.36,+P0", "chedy okeedy qokeedy qokeey shdy otey qokeey", ["s", "c", "s", "t", "s", "n", "t"]),
     ("f103r.39,+P0", "ykeedy qokeey lsheey qotal shedy oteey", ["s", "t", "r", "r", "p", "p"]),
@@ -124,7 +113,7 @@ TARGET_SKELETONS = [
 ]
 
 print("=" * 94)
-print("f103r REÇETE SATIRLARI — VİTERBİ ÜNLÜ VE DİLBİLGİSİ RESTORASYONU")
+print("f103r PRESCRIPTION LINES — VITERBI VOWEL AND GRAMMAR RESTORATION")
 print("=" * 94)
 
 for tag, voy_str, c_seq in TARGET_SKELETONS:
