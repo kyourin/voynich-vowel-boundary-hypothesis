@@ -39,8 +39,6 @@ for w, c in word_freq.items():
             latin_c_counts[blk] += c
         if 2 <= len(sk) <= 5:
             skel_dict[sk].append((w, c))
-
-# Her ünsüz iskeleti için en sık 3 gerçek Latince kelimeyi tut
 for sk in skel_dict:
     skel_dict[sk].sort(key=lambda item: item[1], reverse=True)
     skel_dict[sk] = skel_dict[sk][:3]
@@ -48,7 +46,6 @@ for sk in skel_dict:
 tot_latin_c = sum(latin_c_counts.values())
 max_c_share = {c: (cnt / tot_latin_c) * 1.25 for c, cnt in latin_c_counts.items()}
 
-# 2. Tüm Voynich metnini yükle ve kelime frekanslarını hesapla
 all_paragraphs = []
 voy_word_freq = Counter()
 
@@ -66,7 +63,6 @@ with open(voynich_path, "r", encoding="utf-8", errors="ignore") as f:
 
 tot_voy_tokens = sum(voy_word_freq.values())
 
-# 3. Sıfır tahminli 3x tekrar çekirdek anahtarı
 CORE_KEY = {
     "qokedy": "r",
     "qokeey": "t",
@@ -77,7 +73,6 @@ CORE_KEY = {
     "oteey": "p"
 }
 
-# 4. Kapasite dengeli (yığılma önleyici) 3 turlu ünsüz çözücü
 for rnd in range(1, 4):
     votes = Counter()
     for tag, ws in all_paragraphs:
@@ -110,7 +105,6 @@ for rnd in range(1, 4):
 
     print(f"[Tur {rnd}/3] Yeni Eklenen Dengeli Anahtar: {added} | Toplam Anahtar: {len(CORE_KEY)}", flush=True)
 
-# 5. f103r Reçete Sayfasında Kapasite Dengeli İskelet + Sözlük Eşleşmeleri
 print("\n" + "=" * 94)
 print("KAPASİTE DENGELİ ANAHTARLA f103r REÇETE SAYFASI OKUMA DENEMESİ")
 print("=" * 94)
