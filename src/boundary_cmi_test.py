@@ -32,9 +32,7 @@ def get_suffix(word):
             return s
     return word[-1]
 
-# =====================================================================
-# 1. EXTRACT CONSECUTIVE WORD TRIPLETS (Word_{i-1}, Word_i, Word_{i+1})
-# =====================================================================
+# EXTRACT CONSECUTIVE WORD TRIPLETS (Word_{i-1}, Word_i, Word_{i+1})
 voynich_lines = []
 with open(voynich_path, "r", encoding="utf-8", errors="ignore") as f:
     for line in f:
@@ -56,9 +54,7 @@ for line in voynich_lines:
 valid_groups = {w: pairs for w, pairs in conditioned_pairs.items() if len(pairs) >= 15}
 total_triplets = sum(len(pairs) for pairs in valid_groups.values())
 
-# =====================================================================
-# 2. COMPUTE CONDITIONAL MUTUAL INFORMATION I(S_{i-1}; P_{i+1} | W_i)
-# =====================================================================
+# COMPUTE CONDITIONAL MUTUAL INFORMATION I(S_{i-1}; P_{i+1} | W_i)
 def compute_cmi(groups_dict):
     total_n = sum(len(v) for v in groups_dict.values())
     cmi_bits = 0.0
@@ -85,9 +81,7 @@ def compute_cmi(groups_dict):
 
 observed_cmi, per_word_stats = compute_cmi(valid_groups)
 
-# =====================================================================
-# 3. EXACT WITHIN-GROUP PERMUTATION BASELINE (1,000 SHUFFLES)
-# =====================================================================
+# EXACT WITHIN-GROUP PERMUTATION BASELINE (1,000 SHUFFLES)
 rng = np.random.default_rng(42)
 null_cmis = []
 
@@ -112,9 +106,6 @@ excess_cmi = observed_cmi - null_mean
 z_score = excess_cmi / (null_std + 1e-12)
 p_val = np.mean([1.0 if x >= observed_cmi else 0.0 for x in null_cmis])
 
-# =====================================================================
-# 4. REPORT RESULTS
-# =====================================================================
 print("=" * 82)
 print("SECOND-ORDER BOUNDARY CONDITIONAL MUTUAL INFORMATION TEST")
 print("Metric: I(Suffix_{i-1} ; Prefix_{i+1} | Middle_Word_i)")
