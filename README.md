@@ -157,6 +157,30 @@ To verify that the recovered pharmaceutical terminology is driven by the structu
 | **Valid Grammatical Bigrams** | **128** | $115.60 \pm 11.75$ | $+1.05\sigma$ |
 | **Unresolved Blocks** | **1** | $1.44 \pm 1.81$ | $+0.24\sigma$ |
 
+### E. Zodiac Star-Label Functional Locking & Astronomical Null-Control (`f70v2` – `f73v`)
+
+To test the **Vowel-Boundary State Hypothesis** on isolated astronomical terms without sentence-level context, all **348 standalone star/nymph labels** (`@Lz` and `&Lz` tags across folios `f70v2`–`f73v`) were decomposed into left-vowel (`L`), consonant-core (`C`), and right-vowel (`R`) functional units:
+
+| Functional Locking Structure | Token Count | Share (%) | Structural Role in Isolated Labels |
+| :--- | :---: | :---: | :--- |
+| **Bilateral Lock (`L + C + R`)** | **219** | **62.93%** | Both left and right vowel states enclosed within the token |
+| **Left-Locked (`L + C`)** | **76** | **21.84%** | Preceding vowel table explicitly anchored via prefix (`o-`, `a-`, `y-`) |
+| **Right-Locked (`C + R`)** | **38** | **10.92%** | Following vowel state encoded via terminal suffix (`-ar`, `-al`, `-y`) |
+| **Pure Vowel / Bare Core (`V` / `C`)** | **15** | **4.31%** | Minimal bridge or uninflected root tokens |
+
+- **Left-Boundary Anchor Proof (`84.77%`):** Because standalone star labels lack adjacent inter-word spaces to carry preceding vowel states, **84.77%** of all Zodiac labels lock their left vowel state internally via initial vowel prefixes (`CIFT` + `SOL`), confirming context-compensation at isolated boundaries.
+- **Iso-Skeletal Vowel-Table Shifting:** Identical underlying consonant skeletons recur across different Zodiac folios with shifted boundary affixes—such as **`tl`** (*stella/stellae*, 20x: `okala`, `okeoly`, `okoly`, `okal`, `okaly`), **`tr`** (16x: `okody`, `okydy`, `okeody`, `ykeedy`), **`pl`** (*poli*, 17x: `otaly`, `otal`, `otolal`), and **`pr`** (14x: `otody`, `oteoyd`, `yteody`).
+
+#### 1,000-Trial Permutation Null-Control Benchmark (`N = 280` Multi-Consonant Labels)
+
+To prevent single-letter false positives, single-consonant tokens were excluded and zodiac-specific constellation names (*tauri*, *aries*, *leonis*) were restricted strictly to their corresponding folios. Evaluating `CORE_KEY` against **1,000 frequency-preserving shuffled keys** confirms statistically significant alignment with Medieval Ptolemaic/Alfonsine astronomical catalog terminology (*polus*, *stella*, *stellarum*, *clara*, *solis*, *oculus*, *caelum*):
+
+| Evaluation Metric (`f70v2`–`f73v`, `N = 280`) | Real `CORE_KEY` | 1,000-Trial Null Mean ($\pm$ SD) | Statistical Significance ($Z$-Score) | Empirical $p$-Value |
+| :--- | :---: | :---: | :---: | :---: |
+| **Astronomical Term Hits (2+ Consonants)** | **94** | $37.11 \pm 19.53$ | **$+2.91\sigma$** | **$p = 0.0060$** |
+| **High-Confidence Anchors (3+ Consonants)** | **16** | $5.20 \pm 4.10$ | **$+2.63\sigma$** | **$p = 0.0250$** |
+
+
 ---
 
 ## 4 — Generative Entropy Validation & Full-Corpus Viterbi Decipherment
