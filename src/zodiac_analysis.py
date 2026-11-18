@@ -225,3 +225,34 @@ def main():
     keys_list = list(CORE_KEY.keys())
     vals_list = list(CORE_KEY.values())
     null_hits_dist = []
+    null_long_dist = []
+
+    for _ in range(n_trials):
+        shuffled_vals = vals_list[:]
+        random.shuffle(shuffled_vals)
+        null_key = dict(zip(keys_list, shuffled_vals))
+        nh, nl, _ = evaluate_key(multi_cons_records, null_key, gen_idx, fol_idx)
+        null_hits_dist.append(nh)
+        null_long_dist.append(nl)
+
+    m_all, sd_all, z_all, p_all = calc_z_stats(real_hits, null_hits_dist)
+    m_lng, sd_lng, z_lng, p_lng = calc_z_stats(real_long, null_long_dist)
+
+    print("\n" + "=" * 94)
+    print(f"3. 1,000-TRIAL PERMUTATION NULL-CONTROL BENCHMARK (N = {len(multi_cons_records)} MULTI-CONSONANT LABELS)")
+    print("=" * 94)
+    print(f"  {'Metric':<36} | {'Real Key':>8} | {'Null Mean (±SD)':>16} | {'Z-Score':>8} | {'Emp. p':>7}")
+    print("-" * 94)
+    print(f"  {'Astronomical Term Hits (2+ Cons.)':<36} | {real_hits:>8} | {m_all:>6.2f} ± {sd_all:<6.2f}  | {z_all:>+7.2f}σ | {p_all:>7.4f}")
+    print(f"  {'High-Confidence Anchors (3+ Cons.)':<36} | {real_long:>8} | {m_lng:>6.2f} ± {sd_lng:<6.2f}  | {z_lng:>+7.2f}σ | {p_lng:>7.4f}")
+    print("=" * 94)
+
+    print("\n4. HIGH-CONFIDENCE (3+ CONSONANT) RESOLVED ZODIAC ANCHORS:")
+    for fol, w, sk, cands in anchors:
+        if len(extract_voynich_consonants(w)) >= 3:
+            sign = ZODIAC_FOLIOS[fol][0]
+            print(f"  [{fol:<5} | {sign:<11}] {w:<12} ({sk:<4}) => {', '.join(cands[:4])}")
+
+
+if __name__ == "__main__":
+    main()
